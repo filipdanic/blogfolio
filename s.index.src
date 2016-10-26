@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danić Filip – Software Engineer and IT Guy</title>
+    <meta name="description" content="Danić Filip is a software engineer, writer, speaker and beer lover. Get in touch!">
+    <link rel="author" href="danicfilip.com">
+    <link rel="stylesheet" href="./styles/core.min.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="shortcut icon" href="./styles/assets/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="content-center">
+      <a href="/" title="Go to home.">
+        <img class="logo" src="./styles/assets/logo.svg" alt="Danić Filip logo" />
+      </a>
+    </header>
+    <article>
+      <header>
+        <h1>Filip Danić</h1>
+      </header>
+      <p>I am a software engineer and beer lover. Currently, I’m developing super hot software products at <a href="http://spicefactory.co/" target="_blank" title="Spice Factory, official">SpiceFactory.</a></p>
+      <p><em>Stack: React, Redux, Node, PostgreSQL, and Scala.</em></p>
+    </article>
+    <article>
+      <header>
+        <h2>Talks</h2>
+      </header>
+      <ul>
+        <li>
+          <strong><a href="https://belgrade.voxxeddays.com/talk/235/" target="_blank" title="State, Redux.">State</a></strong> at <a href="https://belgrade.voxxeddays.com/" target="_blank" title="VDB16">Voxxed Days Belgrade 2016.</a>
+        </li>
+      </ul>
+    </article>
+    <article>
+      <header>
+        <h2>Get in touch</h2>
+      </header>
+      <ul>
+        <li>
+          GitHub, as <a href="https://github.com/filipdanic" target="_blank" title="filipdanic on Github">filipdanic.</a>
+        </li>
+        <li>
+          Twitter, as <a href="https://twitter.com/DanicFilip" target="_blank" title="@DanicFilip">@DanicFilip.</a>
+        </li>
+        <li>
+          StackOverflow, as <a href="http://stackoverflow.com/users/4764847/vandanic" target="_blank" title="VanDanic on StackOverflow">VanDanic.</a>
+        </li>
+      </ul>
+    </article>
+    <footer class="final-footer">
+      <p>Or, <a href="mailto:filipdanic7@gmail.com" title="Send an email">send an email.</a></p>
+    </footer>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-53133146-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+  </body>
+</html>
