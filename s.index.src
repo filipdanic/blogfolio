@@ -30,7 +30,10 @@
       </header>
       <ul>
         <li>
-          <strong><a href="https://belgrade.voxxeddays.com/talk/235/" target="_blank" title="Complex State Handling in Modern Web Applications">State</a></strong> at <a href="https://belgrade.voxxeddays.com/" target="_blank" title="VDB16">Voxxed Days Belgrade 2016.</a>
+          <em>03/12/2016</em> <strong>Attack of the Chabots</strong> at <a href="http://www.mcloud.rs/blog/developers-mday-3/" target="_blank" title="#mDevDay3">Mainstream Developers’s Day 3.</a> Get <a target="_blank" title="Attack of the Chabots Slides" href="https://speakerdeck.com/filipdanic/attack-of-the-chatbots-filip-danic-number-mdevday3">the slides.</a>
+        </li>
+        <li>
+          <em>30/09/2016</em> <strong><a href="https://belgrade.voxxeddays.com/talk/235/" target="_blank" title="Complex State Handling in Modern Web Applications">State</a></strong> at <a href="https://belgrade.voxxeddays.com/" target="_blank" title="VDB16">Voxxed Days Belgrade 2016.</a> Get <a target="_blank" title="VDB 16 Slides" href="https://speakerdeck.com/filipdanic/complex-state-handling-in-modern-web-apps-filip-danic-at-voxxed-days-belgrade-2016">the slides.</a>
         </li>
       </ul>
     </article>
