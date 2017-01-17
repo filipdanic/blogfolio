@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Danić Filip – Software Engineer and IT Guy</title>
-    <meta name="description" content="Danić Filip is a software engineer, writer, speaker and beer lover. Get in touch!">
+    <meta name="description" content="Danić Filip is a software engineer, writer, speaker, and beer lover. Working with React and building chatbots. Get in touch!">
     <link rel="author" href="danicfilip.com">
     <link rel="stylesheet" href="./styles/core.min.css">
     <link rel="shortcut icon" href="./styles/assets/favicon.ico" type="image/x-icon">
@@ -20,7 +20,7 @@
       <header>
         <h1>Filip Danić</h1>
       </header>
-      <p>I am a software engineer and beer lover. Currently, I’m developing super hot software products at <a href="http://spicefactory.co/" target="_blank" title="Spice Factory, official">SpiceFactory.</a></p>
+      <p>I am a software engineer, wannabe speaker, and a beer lover. Currently, I’m developing super hot software products at <a href="http://spicefactory.co/" target="_blank" title="Spice Factory, official">SpiceFactory.</a> Also experimenting a lot with chatbots.</p>
       <p><em>Stack: React, Redux, Node, PostgreSQL, and Scala.</em></p>
     </article>
     <article>
