@@ -77,4 +77,6 @@ code {
 .date {
   font-family: monospace;
   font-size: 10px;
+  border-bottom: 1px dashed;
+  cursor: help;
 }

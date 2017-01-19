@@ -25,14 +25,25 @@
     </article>
     <article>
       <header>
-        <h2>Talks</h2>
+        <h2>Upcoming Talks</h2>
       </header>
       <ul>
-        <span class="date">03/12/2016</span>
+        <span class="date" title="19th of May, 2017">19/05/2017</span>
+        <li>
+           <strong><a href="http://devdays.lt/filip/" target="_blank" title="How to Design and Build Bots that People will Love!">Attack of the Chabots, vol 2</a></strong> at <a href="http://devdays.lt/" target="_blank" title="DevDays.lt">DevDays Vilnius.</a> Get in touch if you are attending!
+        </li>
+      </ul>
+    </article>
+    <article>
+      <header>
+        <h2>Past Talks</h2>
+      </header>
+      <ul>
+        <span class="date" title="3rd of December, 2016">03/12/2016</span>
         <li>
            <strong>Attack of the Chabots</strong> at <a href="http://www.mcloud.rs/blog/developers-mday-3/" target="_blank" title="#mDevDay3">Mainstream Developers’s Day 3.</a> Get <a target="_blank" title="Attack of the Chabots Slides" href="https://speakerdeck.com/filipdanic/attack-of-the-chatbots-filip-danic-number-mdevday3">the slides.</a>
         </li>
-        <span class="date">30/09/2016</span>
+        <span class="date" title="30th of September, 2016">30/09/2016</span>
         <li>
           <strong><a href="https://belgrade.voxxeddays.com/talk/235/" target="_blank" title="Complex State Handling in Modern Web Applications">State</a></strong> at <a href="https://belgrade.voxxeddays.com/" target="_blank" title="VDB16">Voxxed Days Belgrade 2016.</a> Get <a target="_blank" title="VDB 16 Slides" href="https://speakerdeck.com/filipdanic/complex-state-handling-in-modern-web-apps-filip-danic-at-voxxed-days-belgrade-2016">the slides.</a>
         </li>
