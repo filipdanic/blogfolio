@@ -25,20 +25,13 @@
     </article>
     <article>
       <header>
-        <h2>Upcoming Talks</h2>
-      </header>
-      <ul>
-        <span class="date" title="19th of May, 2017">19/05/2017</span>
-        <li>
-           <strong><a href="http://devdays.lt/filip/" target="_blank" title="How to Design and Build Bots that People will Love!">Attack of the Chatbots, vol 2</a></strong> at <a href="http://devdays.lt/" target="_blank" title="DevDays.lt">DevDays Vilnius.</a> Get in touch if you are attending!
-        </li>
-      </ul>
-    </article>
-    <article>
-      <header>
         <h2>Past Talks</h2>
       </header>
       <ul>
+        <span class="date" title="18th of May, 2017">18/05/2017</span>
+        <li>
+           <strong><a href="http://devdays.lt/filip/" target="_blank" title="How to Design and Build Bots that People will Love!">How to Design and Build Chatbots</a></strong> at <a href="http://devdays.lt/" target="_blank" title="DevDays.lt">DevDays Vilnius.</a>
+        </li>
         <span class="date" title="3rd of December, 2016">03/12/2016</span>
         <li>
            <strong>Attack of the Chatbots</strong> at <a href="http://www.mcloud.rs/blog/developers-mday-3/" target="_blank" title="#mDevDay3">Mainstream Developers’s Day 3.</a> Get <a target="_blank" title="Attack of the Chatbots Slides" href="https://speakerdeck.com/filipdanic/attack-of-the-chatbots-filip-danic-number-mdevday3">the slides.</a>
