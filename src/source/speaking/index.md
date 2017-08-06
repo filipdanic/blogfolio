@@ -24,7 +24,7 @@ The information on this page is for anyone who might want to invite me to their 
 
 👉 <a href="http://devdays.lt/filip/" target="_blank">Conference site.</a> <a href="https://speakerdeck.com/filipdanic/how-to-build-and-design-chatbots-devdays-vilnius-2017" target="_blank">Slides.</a>
 
-🇷🇸 **Voxxed Days Belgrade 2016** <span class="date-info">03/12/2016</span>
+🇷🇸 **Voxxed Days Belgrade 2016** <span class="date-info">30/10/2016</span>
 
 “Complex State Handling in Modern Web Apps”
 
