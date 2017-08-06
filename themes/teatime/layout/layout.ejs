@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      <%= page.title ? page.title : config.seo_index_title %><%= page.title ? config.seo_post_trailing_title  : '' %>
+    </title>
+    <meta name="description" content="<%= page.seo_description ? page.seo_description : config.seo_index_description %>" />
+    <link rel="shortcut icon" href="<%= config.url %>/content/images/defaults/favicon.ico" type="image/x-icon">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@DanicFilip">
+    <meta name="twitter:creator" content="@DanicFilip">
+    <meta name="twitter:author" content="@DanicFilip">
+    <meta name="twitter:title" content="<%= page.title ? page.title : config.seo_index_title %><%= page.title ? config.seo_post_trailing_title  : '' %>">
+    <meta name="twitter:description" content="<%= page.seo_description ? page.seo_description : config.seo_index_description %>">
+    <meta name="twitter:image" content="<%= config.url %><%= page.promo_photo ? page.promo_photo : config.promo_photo_default %>">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<%= page.title ? page.title : config.seo_index_title %><%= page.title ? config.seo_post_trailing_title  : '' %>">
+    <meta property="og:description" content="<%= page.seo_description ? page.seo_description : config.seo_index_description %>">
+    <meta name="og:image" content="<%= config.url %><%= page.promo_photo ? page.promo_photo : config.promo_photo_default %>">
+
+    <%- css('css/main') %>
+  </head>
+  <body>
+    <div>
+      <%- body %>
+    </div>
+  </body>
+</html>

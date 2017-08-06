@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row front-header">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <div class="content">
+        <h1>Essays</h1>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <div class="content">
+        <% page.posts.each(function(post){ %>
+            <div class="post-cardr">
+              <p class="date-info"><%= date(post.date, config.date_format) %></p>
+              <p>
+                <a href="<%- url_for(post.path) %>">
+                  <%= post.title %>
+                </a>
+              </p>
+            </div>
+        <% }) %>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>
+
+<%- partial('navigation-footer') %>
+<div class="navigation-footer">
+  <p>🏡 <a href="/">Home</a></p>
+</div>
+<div class="footer-image">
+</div>

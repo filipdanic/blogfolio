@@ -1,0 +1,45 @@
+<article>
+  <div class="container">
+    <header>
+      <div class="row front-header">
+        <div class="col-12">
+          <div class="blog-content">
+            <div class="navigation-header">
+              <p>🏡 <a href="/">Back Home</a></p>
+            </div>
+            <h1><%- page.title %></h1>
+            <p><em><%- page.intro %></em></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+        <div class="col-12">
+          <div class="blog-content">
+            <%- page.content %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+      <div class="row">
+        <div class="col-12">
+          <div class="blog-content">
+            <p class="blog-meta-info">
+              Posted on <%= date(page.date, config.date_format) %> by <%= config.author %>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</article>
+
+<%- partial('navigation-footer') %>
+<div class="navigation-footer">
+  <p>🏡 <a href="/">Home</a></p>
+</div>
+<div class="footer-image">
+</div>
