@@ -15,13 +15,13 @@ With the Spice crew I’ve had a chance to take on many interesting projects. Bo
 
 ### 🛠 KonceptApp
 
-<a href="https://konceptapp.com/" target="_blank">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product I’ve shipped with SpiceFactory.
+<a href="https://konceptapp.com/" target="_blank">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
 
- It’s was a very interesting projects from start to finish due to interactive prototype editor that we developed with React.js and Redux.
+ It’s was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.
 
 ### 💰 Cognito
 
-<a href="https://cognito.spicefactory.co/" target="_blank">Cognito</a> is white-label chatbot solution for banks and insurance companies. It’s purpose is to provide the user with 24/7 access to their financial information, automate minor tasks, help them keep an eye on their finances, and provide quick customer support.
+<a href="https://cognito.spicefactory.co/" target="_blank">Cognito</a> is a white-label chatbot solution for banks and insurance companies. It’s purpose is to provide the user with 24/7 access to their financial information, automate minor tasks, help them keep an eye on their finances, and provide quick customer support.
 
 For all the technical folks out there, the “keywords” for this project are nlp, machine learning, and conversational UIs.
 
