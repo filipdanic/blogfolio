@@ -8,15 +8,13 @@ date: 2017-08-06
 
 The information on this page is for anyone who might want to invite me to their event – be it a conference or local meetup group. Use this page to learn more about me and feel free to get in touch via <a href="mailto:filipdanic7@gmail.com">email</a> or <a href="https://twitter.com/DanicFilip" target="_blank">Twitter.</a>
 
-## Upcoming Talks
+## Past Talks
 
 🇷🇸 **Voxxed Days Belgrade 2017** <span class="date-info">19/10/2017</span>
 
 “How to Design and Build Chatbots that People will Love!”
 
-👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site & tickets.</a>
-
-## Past Talks
+👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> Slides and video coming soon!
 
 🇱🇹 **DevDays Vilnius** <span class="date-info">18/05/2017</span>
 

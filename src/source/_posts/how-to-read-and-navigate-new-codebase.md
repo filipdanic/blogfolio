@@ -44,7 +44,7 @@ Since bundled code is obfuscated it was hard to figure out what I was looking at
 
 Knowing the name of the component I fixed the bug – that was related to the logic – and tested the changes. Sure enough, the component on the screen still had different styles, but the bug had been solved.
 
-## Part 3: Digging Deeper
+### Part 3: Digging Deeper
 
 <figure class="blog-post-image"><img src="/content/images/2017/prairie-dogs-debugging-and-diggin.jpg" alt="Image of prairie dogs. The joke is that they’re digging." /><figcaption>Praire dogs or programmers? Photo by Kapa65 via Pixabay.</figcaption></figure>
 
