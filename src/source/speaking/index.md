@@ -14,7 +14,7 @@ The information on this page is for anyone who might want to invite me to their 
 
 “How to Design and Build Chatbots that People will Love!”
 
-👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> Slides and video coming soon!
+👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> <a href="https://www.youtube.com/watch?v=UT0hDoEOHj8" target="_blank">🎥 Video and slides.</video>
 
 🇱🇹 **DevDays Vilnius** <span class="date-info">18/05/2017</span>
 
@@ -28,21 +28,21 @@ The information on this page is for anyone who might want to invite me to their 
 
 👉 <a href="https://belgrade.voxxeddays.com/16/talk/235/" target="_blank">Conference site.</a> <a href="https://speakerdeck.com/filipdanic/complex-state-handling-in-modern-web-apps-filip-danic-at-voxxed-days-belgrade-2016" target="_blank">Slides.</a>
 
+## Meetups
+
+I’ve also had the pleasure of speaking at various local meetups. These include events organized by <a href="https://www.meetup.com/SuperAdmins/" target="_blank">Super Admins</a>, <a href="https://www.meetup.com/Practical-UX/" target="_blank">Practical UX</a>, and student conferences such as <a href="https://www.facebook.com/umrezavanje/" target="_blank">Umrežavanje.</a>
+
 ## What You Should Know
 
 1. I usually have a talk ready and rehersed. But, I do always tailor it to the event.
-
-2. My company is interested in covering travel and logging expenses, especially if this is a possible _“sponsorship” oppertunity._
-
+2. My company is interested in covering travel and logging expenses, especially if this is a possible _“sponsorship oppertunity.”_
 3. I am fine with giving my talk for free. Especially for local meetup groups.
 
 ## I Expect That…
 
-1. Your conference has a code of conduct.
-
-2. You advocate for diversity. For both speakers and attendees.
-
-3. Let me know of all technical and logistical details a few weeks in advance.
+1. Your conference has a **code of conduct.**
+2. **You advocate for diversity.** For both speakers and attendees.
+3. Let me know of all technical and logistical details a few weeks **in advance.**
 
 ## Let’s Have a Great Time
 
