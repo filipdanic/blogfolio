@@ -11,7 +11,7 @@ Remember, you can always <a href="mailto:filipdanic7@gmail.com">email me</a> or 
 
 I am employed at <a href="https://spicefactory.co/" target="_blank">SpiceFactory. 🌶</a>
 
-With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here.
+With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here. You can also catch me on <a href="https://www.twitch.tv/filipdanic" target="_blank">on Twitch,</a> where I occasionally live stream. Past recording are posted <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" target="_blank">on YouTube.</a>   
 
 ### 🛠 KonceptApp
 

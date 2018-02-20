@@ -62,7 +62,7 @@ I did not find any such logic on my way to the final file. This was a top-level 
 
 At this point, I am a bit fatigued. I had crawled my way up a big dependency graph, but have not found what I was looking for.
 
-Though luck so far.
+Rotten luck, so far.
 
 Now, I’ve seen this “bootstrap” file before, but don’t remember seeing any real logic inside of it.
 
