@@ -73,7 +73,7 @@
 <p>I started looking at the controller that instantiates the component and worked my way up.</p>
 <p>I did not find any such logic on my way to the final file. This was a top-level “bootstrap” file that registers every component that’s used in the app.  It imports these components and makes them available to the global namespace. It does this via a <code>registerImplementation()</code> method.</p>
 <p>At this point, I am a bit fatigued. I had crawled my way up a big dependency graph, but have not found what I was looking for.</p>
-<p>Though luck so far.</p>
+<p>Rotten luck, so far.</p>
 <p>Now, I’ve seen this “bootstrap” file before, but don’t remember seeing any real logic inside of it.</p>
 <p>As expected I did not find any magical <code>if/else</code> statement. What I did find was a <code>registerImplementation()</code> call for <code>Component A</code>, but none for <code>Component B</code>.</p>
 <p>I read the file line-by-line and towards the bottom of the file, I noticed something I missed earlier. There was a <code>require</code> statement for a file called <code>mobileAppClient</code>.  In this file was a magical block of code:</p>
@@ -205,19 +205,25 @@
     <footer>
       <p>
         👉
-        <a href="/writing">Writing</a>
-        <a href="/speaking">Speaking</a>
-        <a href="/about" class="footer-link">About</a>
+        <a href="/writing" title="Danic Filip: Essays and Blog posts">Writing</a>
+        <a href="/speaking" title="Danic Filip: Speaking Info and Experience">Speaking</a>
+        <a href="/about" title="Danic Filip: About and Projects" class="footer-link">About</a>
       </p>
       <p>
         📬
-        <a href="https://twitter.com/DanicFilip" target="_blank">Twitter</a>
-        <a href="mailto:filipdanic7@gmail.com">Email</a>
-        <a href="https://github.com/filipdanic" target="_blank">GitHub</a>
+        <a href="https://twitter.com/DanicFilip" title="Twitter at DanicFilip" target="_blank">Twitter</a>
+        <a href="mailto:filipdanic7@gmail.com" title="Email me at filipdanic7@gmail.com">Email</a>
+        <a href="https://github.com/filipdanic" title="Github username: filipdanic" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/danicfilip/" title="LinkedIn username: danicfilip" target="_blank">LinkedIn</a>
+      </p>
+      <p>
+        🎥
+        <a href="https://www.twitch.tv/filipdanic" title="Twitch development streams" target="_blank">Twitch</a>
+        <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" title="YouTube channel">YouTube</a>
       </p>
       <p>
         <small>
-        You can get the website code <a href="https://github.com/filipdanic/filipdanic.github.io/" target="_blank" title="Danic Filip Github">here</a> and do whaterver. The content is copyrighted obviously. If you want to repost it somewhere, let me know. <a href="https://github.com/filipdanic/filipdanic.github.io/blob/master/LICENSE" target="_blank" title="License file">MIT license.</a>
+        You can get the website code <a href="https://github.com/filipdanic/filipdanic.github.io/" target="_blank" title="Danić Filip Github page">here</a> and do whatever. The content is copyrighted obviously. If you want to re-post it somewhere, let me know. <a href="https://github.com/filipdanic/filipdanic.github.io/blob/master/LICENSE" target="_blank" title="License file">MIT license.</a>
         </small>
       </p>
     </footer>
