@@ -11,25 +11,19 @@ Remember, you can always <a href="mailto:filipdanic7@gmail.com">email me</a> or 
 
 I am employed at <a href="https://spicefactory.co/" target="_blank">SpiceFactory. 🌶</a>
 
-With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here. You can also catch me on <a href="https://www.twitch.tv/filipdanic" target="_blank">on Twitch,</a> where I occasionally live stream. Past recording are posted <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" target="_blank">on YouTube.</a>   
-
-### 🛠 KonceptApp
-
-<a href="https://konceptapp.com/" target="_blank">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
-
- It’s was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.
-
-### 💰 Cognito
-
-<a href="https://cognito.spicefactory.co/" target="_blank">Cognito</a> is a white-label chatbot solution for banks and insurance companies. It’s purpose is to provide the user with 24/7 access to their financial information, automate minor tasks, help them keep an eye on their finances, and provide quick customer support.
-
-For all the technical folks out there, the “keywords” for this project are nlp, machine learning, and conversational UIs.
+With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the internal _“special ones”_ here. You can also catch me on <a href="https://www.twitch.tv/filipdanic" target="_blank">on Twitch,</a> where I occasionally live stream. Past recording are posted <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" target="_blank">on YouTube.</a>   
 
 ### 🤖 Sava
 
 <a href="https://savabot.com/" target="_blank">Sava</a> is a platform that offers a complete all–in–one solution for conference organizers: schedule editor, interactive chatbot, a native mobile app for Android and iOS, as well as direct access to the API.
 
 This is an ongoing project that started out only as a chatbot for the <a href="https://belgrade.voxxeddays.com/" target="_blank">Voxxed Days conference.</a>
+
+### 🛠 KonceptApp
+
+<a href="https://konceptapp.com/" target="_blank">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
+
+ It’s was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.
 
 ### ⚛️ spicy-datatable
 
@@ -38,6 +32,6 @@ The <a href="https://github.com/filipdanic/spicy-datatable" target="_blank">spic
 The motivation for creating this module was:
 
 1. Most React datatable components use jQuery for some DOM manipulation dark magic.
-2. Other’s were just too complex for a simple use case or did not have all the features I needed.
+2. Others were just too complex for a simple use case or did not have all the features I needed.
 
 _Stay tuned for more. :)_
