@@ -41,7 +41,7 @@ code {
 }
 
 .content {
-  max-width: 420px;
+  max-width: 540px;
   margin: 10px auto;
 }
 
@@ -114,6 +114,10 @@ p.date-info {
   font-size: 0.8em;
 }
 
+.navigation-footer a {
+  padding: 0 4px 0 0;
+}
+
 .post-card {
   margin-bottom: 15px;
 }
@@ -124,7 +128,7 @@ p.date-info {
 }
 
 .front-header {
-  background-color: #08468D;
+  background-color: #3c40c6;
   font-size: 1.25rem;
   color: whitesmoke;
 }
@@ -156,7 +160,7 @@ p.date-info {
 }
 
 .alert-box__info {
-  background-color: #7fdbff;
+  background-color: #5352ed;
   color: #fff;
 }
 

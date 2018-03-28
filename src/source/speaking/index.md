@@ -14,7 +14,7 @@ The information on this page is for anyone who might want to invite me to their 
 
 “How to Design and Build Chatbots that People will Love!”
 
-👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> <a href="https://www.youtube.com/watch?v=UT0hDoEOHj8" target="_blank">🎥 Video and slides.</video>
+👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> <a href="https://www.youtube.com/watch?v=UT0hDoEOHj8" target="_blank">Video and slides.</video>
 
 🇱🇹 **DevDays Vilnius** <span class="date-info">18/05/2017</span>
 
