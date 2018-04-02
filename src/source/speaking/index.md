@@ -34,7 +34,7 @@ I’ve also had the pleasure of speaking at various local meetups. These include
 
 ## What You Should Know
 
-1. I usually have a talk ready and rehersed. But, I do always tailor it to the event.
+1. I usually have a talk ready and rehearsed. But, I do always tailor it to the event.
 2. My company is interested in covering travel and logging expenses, especially if this is a possible _“sponsorship oppertunity.”_
 3. I am fine with giving my talk for free. Especially for local meetup groups.
 
