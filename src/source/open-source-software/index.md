@@ -38,6 +38,7 @@ I’ve authored quite a few utilities so far. I love micro-modules like this and
 - <a href="https://github.com/filipdanic/listify-messenger-webhook-events" target="_blank">**listify-messenger-webhook-events**</a> – parses the events object from Facebook Messenger and returns an array of events that is easier to work with.
 - <a href="https://github.com/filipdanic/json2csvexporter" target="_blank">**json2csvexporter**</a> – a simple client-side solution to generate CSV files from JSON.
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
+- <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
 
 **Reach out!**
 
