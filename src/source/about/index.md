@@ -13,15 +13,15 @@ Oh, and you might be interested in my <a href="/open-source-software">commitment
 
 ## Projects I’ve Worked On
 
-I am employed at <a href="https://spicefactory.co/" target="_blank">SpiceFactory. 🌶</a>
+I am employed at <a href="https://spicefactory.co/" target="_blank" title="SpiceFactory Website">SpiceFactory. 🌶</a>
 
 With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here.   
 
 ### 🤖 Sava
 
-<a href="https://savabot.com/" target="_blank">Sava</a> is a platform that offers a complete all–in–one solution for conference organizers: a schedule editor, an interactive chatbot, a native mobile app for Android and iOS, as well as direct access to the API.
+<a href="https://sava.events/" target="_blank" title="Sava Events Platform">Sava</a> is a platform that offers a complete all–in–one solution for conference organizers: a schedule editor, an interactive chatbot, a native mobile app for Android and iOS, as well as direct access to the API.
 
-This is an ongoing project that started out only as a chatbot for the <a href="https://belgrade.voxxeddays.com/" target="_blank">Voxxed Days conference.</a>
+This is an ongoing project that started out only as a chatbot for the <a href="https://belgrade.voxxeddays.com/" target="_blank" title="Voxxed Days Belgrade">Voxxed Days conference.</a> (Now <a href="https://heapcon.io/" target="_blank" title="Heapcon Conference">Heapcon.</a>)
 
 ### 🚨 Z9 Security
 
@@ -29,6 +29,6 @@ Z9 Security provides technology licensing and professional services in the physi
 
 ### 🛠 KonceptApp
 
-<a href="https://konceptapp.com/" target="_blank">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
+<a href="https://konceptapp.com/" target="_blank" title="KonceptApp Website">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
 
 It’s was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.
