@@ -45,8 +45,25 @@ code {
   padding: 4px;
 }
 
+blockquote {
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-style: italic;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0.25em;
+  left: -0.15em;
+  color: #e7e6e4;
+  font-size: 6em;
+  z-index: -1;
+}
+
 .content {
-  max-width: 480px;
+  max-width: 580px;
   margin: 0 auto;
   padding: 12px;
 }
@@ -56,7 +73,7 @@ code {
 .blog-content {
   font-size: 1.3rem;
   margin: 24px auto;
-  max-width: 480px;
+  max-width: 580px;
 }
 
 
