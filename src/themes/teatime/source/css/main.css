@@ -161,14 +161,6 @@ p.date-info {
   text-align: center;
 }
 
-.footer-image {
-  background: url('./images/footer-tower.jpg');
-  background-repeat: no-repeat;
-  height: 500px;
-  background-position-y: 30%;
-  background-size: cover;
-}
-
 /* ==== “ALERT” BOXES ==== */
 
 .homepage-announcement {
