@@ -24,14 +24,11 @@ The motivation for creating this module was:
 1. Most React datatable components use jQuery for some DOM manipulation dark magic.
 2. Others were just too complex for a simple use case or did not have all the features I needed.
 
-### 🐺 spwolf
-
-<a href="https://github.com/filipdanic/spwolf" target="_blank">**spwolf**</a> is an opinionated solution for creating forms in React.js by using `.spec` files. Although it is very much a work-in-progress, I’m using it in production and updating things as I go. It has already saved me tons of time and effort when it comes to constructing forms, implementing validation, and diff-ing data.
-
 ### 🛠 Utilities
 
 I’ve authored quite a few utilities so far. I love micro-modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post in github. 
 
+- <a href="https://github.com/filipdanic/matchcase" target="_blank">**functional-match-case**</a> – say goodbye to switch statements in JavaScript.
 - <a href="https://github.com/filipdanic/with-prefix" target="_blank">**with-prefix**</a> – ensures that a string starts with the given prefix, if it does not already.
 - <a href="https://github.com/filipdanic/monogatari" target="_blank">**monogatari**</a> – an opinionated logging wrapper around chalk.
 - <a href="https://github.com/filipdanic/verify-facebook-request-signature" target="_blank">**verify-facebook-request-signature**</a> – express.js middleware to handle Facebook’s `x-hub-signature` header.
@@ -39,6 +36,11 @@ I’ve authored quite a few utilities so far. I love micro-modules like this and
 - <a href="https://github.com/filipdanic/json2csvexporter" target="_blank">**json2csvexporter**</a> – a simple client-side solution to generate CSV files from JSON.
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
 - <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
+- <a href="https://github.com/filipdanic/get-random-in-range" target="_blank">**get-random-in-range**</a> – get a random number in range as a lazy curried function.
+
+### 🐺 spwolf
+
+<a href="https://github.com/filipdanic/spwolf" target="_blank">**spwolf**</a> is an opinionated solution for creating forms in React.js by using `.spec` files. Although it is very much a work-in-progress, I’m using it in production and updating things as I go. It has already saved me tons of time and effort when it comes to constructing forms, implementing validation, and diff-ing data.
 
 **Reach out!**
 
