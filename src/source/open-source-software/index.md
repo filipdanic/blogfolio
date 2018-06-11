@@ -28,6 +28,7 @@ The motivation for creating this module was:
 
 I’ve authored quite a few utilities so far. I love micro-modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post in github. 
 
+- <a href="https://github.com/filipdanic/is-of-type" target="_blank">**is-of-type**</a> – various utility functions such as `isString`, `isNumber`, `isDefinedAndNotNull`, etc.
 - <a href="https://github.com/filipdanic/matchcase" target="_blank">**functional-match-case**</a> – say goodbye to switch statements in JavaScript.
 - <a href="https://github.com/filipdanic/with-prefix" target="_blank">**with-prefix**</a> – ensures that a string starts with the given prefix, if it does not already.
 - <a href="https://github.com/filipdanic/monogatari" target="_blank">**monogatari**</a> – an opinionated logging wrapper around chalk.
