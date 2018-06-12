@@ -35,6 +35,7 @@ I’ve authored quite a few utilities so far. I love micro-modules like this and
 - <a href="https://github.com/filipdanic/verify-facebook-request-signature" target="_blank">**verify-facebook-request-signature**</a> – express.js middleware to handle Facebook’s `x-hub-signature` header.
 - <a href="https://github.com/filipdanic/listify-messenger-webhook-events" target="_blank">**listify-messenger-webhook-events**</a> – parses the events object from Facebook Messenger and returns an array of events that is easier to work with.
 - <a href="https://github.com/filipdanic/json2csvexporter" target="_blank">**json2csvexporter**</a> – a simple client-side solution to generate CSV files from JSON.
+- <a href="https://github.com/filipdanic/get-nested-value" target="_blank">**get-nested-value**</a> – utility package to get deeply nested values from objects. Support arrays.
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
 - <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
 - <a href="https://github.com/filipdanic/get-random-in-range" target="_blank">**get-random-in-range**</a> – get a random number in range as a lazy curried function.
