@@ -13,9 +13,9 @@ Oh, and you might be interested in my <a href="/open-source-software">commitment
 
 ## Projects I’ve Worked On
 
-I am employed at <a href="https://spicefactory.co/" target="_blank" title="SpiceFactory Website">SpiceFactory. 🌶</a>
+I run my own consulting gig, but really I mostly work at <a href="https://spicefactory.co/" target="_blank" title="SpiceFactory Website">SpiceFactory. 🌶</a>
 
-With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here.   
+With the Spice crew I’ve had a chance to take on many interesting projects. Both for the enterprise and as a way to develop our own products. I’ll only list some of the _“special ones”_ here. I’ve also had the honor of mentoring others developers at various stages of their careers. It’s a great, friendly work environment that I’ve helped nurture.
 
 ### 🤖 Sava
 
@@ -25,10 +25,10 @@ This is an ongoing project that started out only as a chatbot for the <a href="h
 
 ### 🚨 Z9 Security
 
-Z9 Security provides technology licensing and professional services in the physical security industry. I actively help maintain their web application that has been deployed at a number of Fortune 500 corporations. I’ve also recently taken the role of developing a new cross-platform mobile app.
+Z9 Security provides technology licensing and professional services in the physical security industry. I actively help maintain their web application that has been deployed at a number of Fortune 500 corporations. I’ve also recently taken the role of developing a new cross-platform mobile app. (Built with React Native.)
 
 ### 🛠 KonceptApp
 
 <a href="https://konceptapp.com/" target="_blank" title="KonceptApp Website">KonceptApp</a> is an app for running usability tests and creating interactive prototypes. It was the first product that I’ve shipped with SpiceFactory.
 
-It’s was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.
+It was a very interesting projects from start to finish due to the interactive prototype editor that we developed with React and Redux.

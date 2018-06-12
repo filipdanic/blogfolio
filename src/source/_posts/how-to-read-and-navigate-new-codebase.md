@@ -26,7 +26,7 @@ Ever read a murder mystery, but instead of solving a murder, the character is fi
 
 **Confusion:** Upon inspection in Chrome on Mac OS, you cannot reproduce the bug. You could also not replicate the bug on your virtual machine. (It works great both on Edge, Chrome, and IE11!)
 
-**To clarify:** The client is not making this up. You refer to their screenshot and also note that the form looks different on their end. (The styles don’t match.)
+**To clarify:** The client is not making this up. You refer to their screenshots and also note that the form looks different on their end. (The styles don’t match.)
 
 How do you tackle this? Working with bugs that are hard to reproduce is a hard time. What’s the thought process and where do you start looking first?
 
@@ -109,7 +109,7 @@ You first have to get your bearings, chart out the land, and then start gatherin
 
 (I hope you didn’t skip the anecdote by the way. If you did, <a href="https://twitter.com/DanicFilip" target="_blank" title="Twitter, @DanicFilip">please tell me why.</a>)
 
-Diving into a largde codebase, eh? Eventually, you’ll get the hang of it.
+Diving into a large codebase, eh? Eventually, you’ll get the hang of it.
 
 <figure class="blog-post-image"><img src="/content/images/2017/diving-into-code.jpg" alt="Image of a diver in the sea." /><figcaption>Diving deep. Photo by uccisea1970 via Pixabay.</figcaption></figure>
 
@@ -141,11 +141,11 @@ This series of techniques is out-of-scope for the purposes of this article. I wi
 
 <figure class="blog-post-image"><img src="/content/images/2017/dont-dig-with-kids-toys.jpg" alt="Image of children’s shovels on the beach." /><figcaption>Use better tools. Photo by Efraimstochter via Pixabay.</figcaption></figure>
 
-I use Visual Studio Code and  IntelliJ IDEA. As for you, you should use whatever you like. But bear in mind that some features are a “must have”, especially when jumping into a large codebase.
+I use JetBrains WebStorm. (Visual Studio Code is a fine, open-source alternative.) As for you, you should use whatever you like. But bear in mind that some features are a “must have”, especially when jumping into a large codebase.
 
 I’d say that these features are:
 - `go-to` definition,
-- intellisense (or at least some “intellisense light”),
+- intellisense (or at least some _“intellisense light”_),
 - structure pop-up,
 - jump down the hierarchy, and
 - show usage.
@@ -206,7 +206,7 @@ These fixes never address the core problem. They instead introduce a solution to
 
 1. Revert their bug fixes.
 2. Try to refactor.
-3. If the refactor fails, reimplement the feature from scratch.
+3. If the refactor fails, re-implement the feature from scratch.
 
 This will likely take a lot more time. Communicate what you plan on doing to your project manager and see if it’s alright to commit that time.
 
@@ -236,5 +236,5 @@ Fatigued by the article or just skipped ahead to see the titles and images? I fe
 1. **Do your homework:** Learn as much as you can about the domain, the business problems, the app architecture, and find all the docs you can.
 2. **Gear up:** Use a great IDE/Code editor that will make digging through the code easier.
 3. **Debug at runtime:** Set breakpoints at critical sections. Monitor the stack. Follow what’s happening line-by-line.
-4. **Use git:** Remember to look at how a piece of code has changed over time whenever you are confused as to what it actually does. (Or why it even exists.)
+4. **Use git history:** Remember to look at how a piece of code has changed over time whenever you are confused as to what it actually does. (Or why it even exists.)
 5. **Rest and don’t be overwhelmed:** Programming is hard. Your job is hard. Don’t make it harder by being tired and stressed.

@@ -31,7 +31,7 @@ I’ve seen a lot of people wonder if _[the Joel Test](https://www.joelonsoftwar
 
 > Look around the room you’re in…
 
-_We Are Developers 2018_ (held in Vienna) felt like a relatively diverse conference. At least in terms of terms of gender and age groups. They did their best to include more women via direct outreach, by inviting female speakers, and by using diversity tickets.
+_We Are Developers 2018_ (held in Vienna) felt like a relatively diverse conference. At least in terms of gender and age groups. They did their best to include more women via direct outreach, by inviting female speakers, and by using diversity tickets.
 
 But the fact remains that this is an industry that’s dominated by one major group. I am reminded of that whenever I look at my own office space or attend a local conference here in Serbia.
 
