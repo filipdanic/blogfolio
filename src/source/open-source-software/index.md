@@ -26,8 +26,9 @@ The motivation for creating this module was:
 
 ### 🛠 Utilities
 
-I’ve authored quite a few utilities so far. I love micro-modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post in github. 
+I’ve authored quite a few utilities so far. I love micro-modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post in github.
 
+I keep a list of them here for reference:
 - <a href="https://github.com/filipdanic/is-of-type" target="_blank">**is-of-type**</a> – various utility functions such as `isString`, `isNumber`, `isDefinedAndNotNull`, etc.
 - <a href="https://github.com/filipdanic/matchcase" target="_blank">**functional-match-case**</a> – say goodbye to switch statements in JavaScript.
 - <a href="https://github.com/filipdanic/with-prefix" target="_blank">**with-prefix**</a> – ensures that a string starts with the given prefix, if it does not already.
@@ -37,6 +38,7 @@ I’ve authored quite a few utilities so far. I love micro-modules like this and
 - <a href="https://github.com/filipdanic/json2csvexporter" target="_blank">**json2csvexporter**</a> – a simple client-side solution to generate CSV files from JSON.
 - <a href="https://github.com/filipdanic/get-nested-value" target="_blank">**get-nested-value**</a> – utility package to get deeply nested values from objects. Support arrays.
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
+- <a href="https://github.com/filipdanic/compact-timezone-list" target="_blank">**compact-timezone-list**</a> – an exported array of timezones with their `label`, `tz` code, and `UTC offset`.
 - <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
 - <a href="https://github.com/filipdanic/get-random-in-range" target="_blank">**get-random-in-range**</a> – get a random number in range as a lazy curried function.
 
@@ -48,4 +50,4 @@ I’ve authored quite a few utilities so far. I love micro-modules like this and
 
 Remember, you can always <a href="mailto:filipdanic7@gmail.com">email me</a> or reach out <a href="https://twitter.com/DanicFilip" target="_blank">via Twitter,</a> if you want to learn more. I’m also actively looking for <a href="/speaking">new speaking opportunities,</a> or going out for a beer if you’re in Belgrade. 🍻
 
-You can also catch me on <a href="https://www.twitch.tv/filipdanic" target="_blank">on Twitch,</a> where I occasionally live stream. Past recording are posted <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" target="_blank">on YouTube.</a> 
+You can also catch me on <a href="https://www.twitch.tv/filipdanic" target="_blank">on Twitch,</a> where I occasionally live stream. Past recording are posted <a href="https://www.youtube.com/channel/UClctBvKpOUts0_B_kvooo_w" target="_blank">on YouTube.</a>
