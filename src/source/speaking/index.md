@@ -1,6 +1,6 @@
 ---
 title: Speaking
-intro: I consider myself an experienced and enthusiastic speaker. I’ve been fortunate enough to speak at events and meetups of various sizes. It is a good oppertunity, I believe, for one to explore their passion with others.
+intro: I consider myself an experienced and enthusiastic speaker. I’ve been fortunate enough to speak at events and meetups of various sizes. I do it because I like meeting new people and sharing my passion with others.
 seo_description: Filip is enthusiastic, experienced tech speaker with several conferences and meetups under his belt. Get in touch!
 promo_photo: /content/images/pages/speaker-page-promo.jpg
 date: 2017-08-06
@@ -41,7 +41,7 @@ I’ve also had the pleasure of speaking at various local meetups. These include
 ## I Expect That…
 
 1. Your conference has a **code of conduct.**
-2. **You advocate for diversity.** For both speakers and attendees.
+2. **You advocate for diversity.** Both in your choice of speakers and ways of attracting attendees.
 3. Let me know of all technical and logistical details a few weeks **in advance.**
 
 ## Let’s Have a Great Time

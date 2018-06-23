@@ -1,6 +1,6 @@
 ---
 title: Open Source Software
-intro: The existence of open source software is one of the most beautiful things about this industry and our craft. This page seeks to document my efforts in helping maintain it and create new micro-modules that others might find useful.
+intro: The existence of open source software is one of the most beautiful things about this industry and our craft. This page seeks to document my efforts to help maintain it and create new micro modules that others might find useful.
 seo_description: Some thoughts on my commitment to open source software and how we can all chip in.
 date: 2018-03-28
 ---
@@ -26,7 +26,7 @@ The motivation for creating this module was:
 
 ### 🛠 Utilities
 
-I’ve authored quite a few utilities so far. I love micro-modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post in github.
+I’ve authored quite a few utilities so far. I love micro modules like this and actively look for an opportunity to pluck out some code from my commercial projects and post it on GitHub.
 
 I keep a list of them here for reference:
 - <a href="https://github.com/filipdanic/is-of-type" target="_blank">**is-of-type**</a> – various utility functions such as `isString`, `isNumber`, `isDefinedAndNotNull`, etc.
@@ -40,6 +40,7 @@ I keep a list of them here for reference:
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
 - <a href="https://github.com/filipdanic/compact-timezone-list" target="_blank">**compact-timezone-list**</a> – an exported array of timezones with their `label`, `tz` code, and `UTC offset`.
 - <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
+- <a href="https://github.com/filipdanic/execute-if-function" target="_blank">**execute-if-function**</a> – please no more `func && func()` 😐!
 - <a href="https://github.com/filipdanic/get-random-in-range" target="_blank">**get-random-in-range**</a> – get a random number in range as a lazy curried function.
 
 ### 🐺 spwolf
