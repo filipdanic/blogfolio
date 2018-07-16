@@ -8,7 +8,7 @@ tags:
 
 When you add a shiny new feature to a product you’re producing some sort of **“output.”** This is what your manager sees. They’re happy when that shiny new thing looks good, works, and is delivered on time.
 
-Not all outputs are equal. Some should never have been created in the first place. Outputs themselves are not important. What a team should be measuring is the **outcome** that they produce. Simply put: _what benefits does the feature bring to the customer?_
+Not all outputs are equal. Some should never have been created in the first place. Outputs themselves are not important. What a team should be measuring is the **outcome** they produce. Simply put: _what benefits does the feature bring to the customer?_
 
 ## A Classic Case of Tunnel Vision
 
@@ -81,7 +81,7 @@ Either way, we’re not wasting time. We’re focusing on what’s important.
 
 <figure class="blog-post-image"><img src="/content/images/2018/customer-interview-session.jpg" alt="Two men, sitting and talking." /><figcaption>Listen carefully. Photo by @liwordson via nappy.</figcaption></figure>
 
-To really understand what makes an outcome desireable, you have to get out there and talk to people. If you already have a product that has a userbase, then this should be easy to acomplish.
+To really understand what makes an outcome desireable, you have to get out there and talk to people. If you already have a product with a userbase, then this should be easy to acomplish.
 
 Setup interviews, respond to questions, invite them to fill out a form etc. In short: _**make it easy for them to constantly provide feedback.**_
 
