@@ -31,7 +31,7 @@ And the argument about the desired output continues on.
 
 The team is completely missing the mark. The discussion should’ve been centered around this part:
 
- > _“Make it possible for people do `action X`.”_
+ > _“Make it possible for people to do `action X`.”_
 
 That’s the desired outcome. That’s the benefit. You need to start from there! But nobody in the scenario focused on that.
 
@@ -53,7 +53,7 @@ If the outcome is truly desired by people using the product, then the product pe
 
 <div class="scenario-box">
     <blockquote>
-        <p>**Person A:** We need to make it possible for people do `action X`.</p>
+        <p>**Person A:** We need to make it possible for people to do `action X`.</p>
         <p>**Person B:** Why is that? Did we do our research?</p>
         <p>**Person A:** Yes! This is based on our last round of usability testing. 20% of people spend a lot of time navigating back-and-forth between screens Y and Z.</p>
         <p>**Person B:** Ok, then this would be a good boost to the overall experience of our product? Hey `Person C` is this within the scope of what we can do this month?</p>
@@ -66,7 +66,7 @@ Or perhaps it could go the other way:
 
 <div class="scenario-box">
     <blockquote>
-        <p>**Person A:** We need to make it possible for people do `action X`.</p>
+        <p>**Person A:** We need to make it possible for people to do `action X`.</p>
         <p>**Person B:** Why is that? Did we do our research?</p>
         <p>**Person A:** Not really. But I’ve used the app yesterday and noticed this will likely bug people.</p>
         <p>**Person C:** Development of this feature will take a couple of days. Not counting QA.</p>
