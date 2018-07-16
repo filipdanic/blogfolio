@@ -62,6 +62,15 @@ blockquote:before {
   z-index: -1;
 }
 
+.scenario-box blockquote {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.scenario-box blockquote p {
+  margin-bottom: 0;
+}
+
 .content {
   max-width: 580px;
   margin: 0 auto;
@@ -151,7 +160,7 @@ p.date-info {
 }
 
 .front-header {
-  background-color: #3c40c6;
+  background-color: #5352ed;
   font-size: 1.25rem;
   color: whitesmoke;
 }
@@ -177,6 +186,10 @@ p.date-info {
 .alert-box__info {
   background-color: #5352ed;
   color: #fff;
+}
+
+.alert-box__info a {
+  color: #F2F27A;
 }
 
 /* ==== UTILITIES ==== */

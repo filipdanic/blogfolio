@@ -46,7 +46,7 @@ Knowing the name of the component I fixed the bug – that was related to the lo
 
 ### Part 3: Digging Deeper
 
-<figure class="blog-post-image"><img src="/content/images/2017/prairie-dogs-debugging-and-diggin.jpg" alt="Image of prairie dogs. The joke is that they’re digging." /><figcaption>Praire dogs or programmers? Photo by Kapa65 via Pixabay.</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2017/prairie-dogs-debugging-and-diggin.jpg" alt="Image of prairie dogs. The joke is that they’re digging." /><figcaption>Prairie dogs or programmers? Photo by Kapa65 via Pixabay.</figcaption></figure>
 
 Yay, bug solved, case closed, right? _Well, not quite._ This is an interesting find and it has to be resolved. Anything else would be dishonest to the client and disrespectful to my craft.
 
