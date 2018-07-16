@@ -40,7 +40,7 @@ I keep a list of them here for reference:
 - <a href="https://github.com/filipdanic/24h-to-12h-format" target="_blank">**24hto12hformat**</a> – convert 24-hour format strings (`hh:mm`) to 12-hour format with AM/PM suffix.
 - <a href="https://github.com/filipdanic/compact-timezone-list" target="_blank">**compact-timezone-list**</a> – an exported array of timezones with their `label`, `tz` code, and `UTC offset`.
 - <a href="https://github.com/filipdanic/is-non-empty-array" target="_blank">**is-non-empty-array**</a> – a utility that does what it says. :)
-- <a href="https://github.com/filipdanic/execute-if-function" target="_blank">**execute-if-function**</a> – please no more `func && func()` 😐!
+- <a href="https://github.com/filipdanic/execute-if-function" target="_blank">**execute-if-function**</a> – please no more `func && func()`! 😐
 - <a href="https://github.com/filipdanic/get-random-in-range" target="_blank">**get-random-in-range**</a> – get a random number in range as a lazy curried function.
 
 ### 🐺 spwolf
