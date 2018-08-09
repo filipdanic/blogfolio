@@ -7,7 +7,7 @@ date: 2018-03-28
 
 ## ❤️ Open Source
 
-I’ve decide that the best I can do to get involved in big projects is to focus on improving docs, developer experience, and reporting bugs.
+I’ve decided that the best I can do to get involved in big projects is to focus on improving docs, developer experience, and reporting bugs.
 
 When it comes to small tools I try to actively contribute code. Usually this is because of a need to get a bug fixed or to speed up the addition of a new feature.
 
