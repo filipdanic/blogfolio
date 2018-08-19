@@ -2,12 +2,12 @@ body {
   font-size: 1.2rem;
   margin: 0;
   padding: 0;
-  font-family: "Merriweather", "source-serif-pro", Georgia, "Times New Roman", Times, serif;
+  font-family: ff-meta-serif-web-pro, "Droid Serif", Georgia, serif;
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 p {
@@ -160,9 +160,18 @@ p.date-info {
 }
 
 .front-header {
-  background-color: #5352ed;
   font-size: 1.25rem;
-  color: whitesmoke;
+  background: url(images/background.png) no-repeat;
+  color: #fbfec5;
+  background-size: cover;
+  background-color: #afa0fe;
+  min-height: 320px;
+}
+
+@media only screen and (max-width: 920px) {
+  .front-header {
+    color: #080d6d
+  }
 }
 
 .navigation-footer  {
@@ -172,10 +181,6 @@ p.date-info {
 
 /* ==== “ALERT” BOXES ==== */
 
-.homepage-announcement {
-  font-size: 0.8em;
-}
-
 .alert-box {
   border-radius: 4px;
   padding: 12px;
@@ -184,12 +189,12 @@ p.date-info {
 }
 
 .alert-box__info {
-  background-color: #5352ed;
+  background-color: #44986f;
   color: #fff;
 }
 
 .alert-box__info a {
-  color: #F2F27A;
+  color: #eee137;
 }
 
 /* ==== UTILITIES ==== */
