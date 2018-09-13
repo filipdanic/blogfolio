@@ -77,3 +77,12 @@ theme: teatime
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# hexo-generator-feed
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 20
+  hub:
+  content_limit: 99999999999
+  order_by: -date
