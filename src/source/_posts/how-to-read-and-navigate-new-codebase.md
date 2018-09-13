@@ -3,6 +3,7 @@ title: How to Read and Navigate a New Codebase
 seo_description: Dealing with a large “legacy” codebase? Here’s a collection of tips and tricks on how to deal read and navigate the code.
 promo_photo: /content/images/2017/uncharted-lands.jpg
 date: 2017-08-06
+updated: 2018-07-27
 tags:
 ---
 
