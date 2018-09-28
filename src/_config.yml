@@ -20,7 +20,7 @@ promo_photo_default: /content/images/defaults/default-social-photo.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://danicfilip.com
+url: https://danicfilip.com
 root: /
 permalink: :year/:title/
 permalink_defaults:
