@@ -47,7 +47,7 @@ After the hike, we went to a local restaurant where some of us tried escargot fo
 
 Afterwards, we set sail for Figueres, the birthplace of Salvador Dalí, and home to the Dalí Museum. To put it bluntly, it was as eccentric as I expected.
 
-<figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/08_dali_museum.jpg" alt="The facade of the Dalí Museum" /><figcaption>As you can see, the museum is hard to miss!</figcaption></figure>
+<figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/08_dali_museum.jpg" alt="The facade of the Dalí Museum" /><figcaption>As you can see, the museum isn’t hard to miss!</figcaption></figure>
 
 <figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/09_dali_museum.jpg" alt="Outside the Dalí Museum entrance" /><figcaption>Even the entrance is intriguing!</figcaption></figure>
 
