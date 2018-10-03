@@ -51,7 +51,7 @@ Afterwards, we set sail for Figueres, the birthplace of Salvador Dalí, and home
 
 <figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/09_dali_museum.jpg" alt="Outside the Dalí Museum entrance" /><figcaption>Even the entrance is intriguing!</figcaption></figure>
 
-<figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/10_figueres.jpg" alt="Figueres streets" /><figcaption>instagram.com/danicfilip</figcaption></figure>
+<figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/10_figueres.jpg" alt="Figueres streets and Parish church of St. Peter" /><figcaption>Parish church of St. Peter</figcaption></figure>
 
 
 ## Day 3: Chill
