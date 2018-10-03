@@ -110,7 +110,7 @@ Originally a small fishing town, Platja d'Aro is now a major resort. Still, it r
 
 ## Day 8: Barcelona
 
-It’ll be honest, I didn’t care much for Sagrada Familia or the Gaudi walking tour. I’m the type of person who likes quiet, charming streets over massively hyped tourist attractions. Barcelona’s city center is just too much for me.
+I’ll be honest, I didn’t care much for Sagrada Familia or the Gaudi walking tour. I’m the type of person who likes quiet, charming streets over massively hyped tourist attractions. Barcelona’s city center is just too much for me.
 
 But there’s a whole different world outside this busy, noisy area. You know how you sometimes stumble upon a charming coffee shop? Or maybe a beautiful bookstore? Or how you accidentally end up atop of some high hill, just as the most amazing sunset hits your eye?
 
