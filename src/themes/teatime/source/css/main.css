@@ -103,6 +103,10 @@ figure.blog-post-image {
   margin-left: -20%;
 }
 
+.blog-post-image.blog-post-image-small img {
+  max-width: 100%;
+}
+
 .blog-post-image br {
   height: 0;
 }
