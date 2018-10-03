@@ -64,13 +64,13 @@ The excitement caught up to some of us at this point and we needed to take it ea
 
 Girona is a charming Catalan city with some of the most beautiful streets and churches you’ll ever see.
 
-<figure class="blog-post-image"><img src="/content/images/2018/workation/12_girona.jpg" alt="Photo from Girona Cathedral" /><figcaption>The View from Cathedral of Saint Mary of Girona</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2018/workation/12_girona.jpg" alt="Photo from Girona Cathedral" /><figcaption>The view from Cathedral of Saint Mary of Girona.</figcaption></figure>
 
-<figure class="blog-post-image"><img src="/content/images/2018/workation/13_girona.jpg" alt="Photo from Girona Cathedral" /><figcaption>The Collegiate Church of Sant Feliu in the Distance</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2018/workation/13_girona.jpg" alt="Photo from Girona Cathedral" /><figcaption>The Collegiate Church of Sant Feliu in the distance.</figcaption></figure>
 
-<figure class="blog-post-image"><img src="/content/images/2018/workation/14_girona.jpg" alt="Photo of Girona Cathedral" /><figcaption>The Stairs of Cathedral of Saint Mary of Girona</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2018/workation/14_girona.jpg" alt="Photo of Girona Cathedral" /><figcaption>The stairs of the Cathedral of Saint Mary of Girona.</figcaption></figure>
 
-<figure class="blog-post-image"><img src="/content/images/2018/workation/15_girona.jpg" alt="Photo of Girona Streets" /><figcaption>Girona’s street view with the Cathedral’s bell tower in the distance.</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2018/workation/15_girona.jpg" alt="Photo of Girona Streets" /><figcaption>A Girona street along with the view of the Cathedral’s bell tower in the distance.</figcaption></figure>
 
 It’s no surprise that this town was chosen as the filming spot for the HBO hit series _“Game of Thrones.”_ Some of its iconic locations were used for the city of Braavos and King’s Landing. In fact, here’s a side by side comparison.
 
