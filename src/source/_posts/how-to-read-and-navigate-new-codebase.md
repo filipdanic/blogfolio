@@ -3,11 +3,11 @@ title: How to Read and Navigate a New Codebase
 seo_description: Dealing with a large “legacy” codebase? Here’s a collection of tips and tricks on how to deal read and navigate the code.
 promo_photo: /content/images/2017/uncharted-lands.jpg
 date: 2017-08-06
-updated: 2018-07-27
+updated: 2018-11-05
 tags:
 ---
 
-Are you excited about inheriting an old project? Me neither. Most engineers are not. Especially if “legacy” is one of the words that pop up in the meeting.
+Are you excited about inheriting an old project? ~Me neither.~ Most engineers are not. Especially if _“legacy”_ is one of the words that pop up in the meeting.
 
 I’ve been maintaining and improving a project that sounds a lot like that. It’s been a bit frustrating, but it has helped me learn a lot and grow as an engineer. This article is a collection of tips and tricks on how to deal with projects that fit this description.
 
@@ -19,15 +19,15 @@ _Let me set the scene. This is a short personal anecdote that will be entertaini
 
 ### Part 1: Problem Setup
 
-Ever read a murder mystery, but instead of solving a murder, the character is fixing a bug? Not so exciting I guess. Anyway, here’s the scenario for out little detective mystery:
+Ever read a murder mystery, but instead of solving a murder, the character is fixing a bug? Here’s the scenario for out little detective mystery:
 
-**Context:** You’re working on a giant monolith app. The tech is somewhat outdated. (New questions stopped appearing on Stack Overflow around 2010.) There’s also little documentation left by the previous team.
+**🔎 Context:** You’re working on a giant monolith app. The tech is somewhat outdated. (New questions stopped appearing on Stack Overflow around 2010.) There’s also little documentation left by the previous team.
 
-**Task:** The client reported a bug with one of the form components on the interface. We will henceforth call this `Component A`. The client is using Chrome on Windows 10.
+**📝 Task:** The client reported a bug with one of the form components on the interface. We will henceforth call this `Component A`. The client is using Chrome on Windows 10.
 
-**Confusion:** Upon inspection in Chrome on Mac OS, you cannot reproduce the bug. You could also not replicate the bug on your virtual machine. (It works great both on Edge, Chrome, and IE11!)
+**😵 Confusion:** Upon inspection in Chrome on Mac OS, you cannot reproduce the bug. You could also not replicate the bug on your virtual machine. (It works great both on Edge, Chrome, and IE11!)
 
-**To clarify:** The client is not making this up. You refer to their screenshots and also note that the form looks different on their end. (The styles don’t match.)
+**💡 To clarify:** The client is not making this up. You refer to their screenshots and also note that the form looks different on their end. (The styles don’t match.)
 
 How do you tackle this? Working with bugs that are hard to reproduce is a hard time. What’s the thought process and where do you start looking first?
 
@@ -37,11 +37,11 @@ How do you tackle this? Working with bugs that are hard to reproduce is a hard t
 
 I was lucky to have a colleague who uses Windows. I got them to open the staging app and check it out. And the bug was there in all its glory.
 
-**I found it strange that the bug was not there on the VM. Was the version of Chrome on the VM different?**
+**I found it strange that the bug was not present on VirtualBox. Was the version of Chrome on the VM different?**
 
 I borrowed their computer over lunch. Then, I inspected the generated HTML and JavaScript bundle via Chrome Developer Tools. My findings were surprising. This strange component was not our `Component A`.
 
-Since bundled code is obfuscated it was hard to figure out what I was looking at. But, I was able to eventually find this component. This `Component B` performed the same functionality, but had different styles and behavior.
+Since the bundled code is obfuscated it was hard to figure out what I was looking at. But, I was able to eventually find this component. This `Component B` performed the same functionality but had different styles and behavior.
 
 Knowing the name of the component I fixed the bug – that was related to the logic – and tested the changes. Sure enough, the component on the screen still had different styles, but the bug had been solved.
 
@@ -122,15 +122,15 @@ But, if you have to do this on a regular basis, how can you get good (and fast!)
 - time traveling, and
 - resting
 
-I know the names are not brilliant, but let’s see what they bring to the table
+I know the names are not brilliant, but let’s see what they bring to the table.
 
 ### Observing and Researching
 
-The first thing you should do a new project is to spend time using the app in a production environment. Get to know all the features and the business problems the app is solving.
+The first thing you should do on a new project is to spend time using the app in a production environment. Get to know all the features and the business problems the app is solving.
 
 **This step is crucial to understanding the project. Especially if this is a business domain that you are unfamiliar with.**
 
-After that, you should do detailed research to find all the documentation that exists. Take the docs with a grain of salt as they are likely outdated.
+After that, you should do detailed research to find all the documentation that exists. (But, take the docs with a grain of salt as they are likely outdated.)
 
 Working with someone who has prior experience with this project? Compile a list of questions and ask for help.
 
@@ -146,14 +146,15 @@ I use JetBrains WebStorm. (Visual Studio Code is a fine, open-source alternative
 
 I’d say that these features are:
 - `go-to` definition,
-- intellisense (or at least some _“intellisense light”_),
+- intelligent code completion (_“intellisense”_ and the like),
 - structure pop-up,
+- jump to decleration,
 - jump down the hierarchy, and
 - show usage.
 
 These make it easy to navigate any project with speed. They also shine when dealing with a new codebase.
 
-I would also note that using the search feature of your editor can be very powerful when all else fails. Remember to make your queries more precise with regular expressions!
+I would also note that using the search feature of your editor can be very powerful when all else fails. Remember to make your queries more precise with regular expressions and by filtering out directories and file types.
 
 ### Breaking
 
@@ -167,7 +168,7 @@ Top features I look for:
 - track scope stack, and
 - access values/methods in scope.
 
-It is not uncommon to have several tools that handle these instead of an all-in-one solution. Obviously, this depends on the language, the surrounding ecosystem, and tooling.
+It is not uncommon to have several tools that handle these instead of an all-in-one solution. Obviously, this depends on the language, the surrounding ecosystem, and tooling. (For example, you might use specialized tools like the [React Inspector](https://github.com/xyc/react-inspector) and [Redux DevTools.](https://github.com/reduxjs/redux-devtools))
 
 ### Time Travel
 
@@ -183,6 +184,8 @@ How you achieve this is up to you. Some prefer to use `git` from their CLI of ch
 - `git log -p -- path/to/file`
 - `git show`
 - `git diff`
+
+<div class="footnote"><p>_*A not so obvious command would be something like `git bisect`. My friend Jovan wrote a quick intro for [the Spicefactory blog](https://spicefactory.co/blog/2016/08/26/spicycomic-3-git-bisect/) about this topic._</p></div>
 
 I prefer to the use the `git` tools built into my IDE. I find that they help save time overall and don’t require that you remember all the commands and options.
 
@@ -210,8 +213,6 @@ These fixes never address the core problem. They instead introduce a solution to
 3. If the refactor fails, re-implement the feature from scratch.
 
 This will likely take a lot more time. Communicate what you plan on doing to your project manager and see if it’s alright to commit that time.
-
-_*A not so obvious command would be something like `git bisect`. My friend Jovan wrote a quick intro for [the Spicefactory blog](https://spicefactory.co/blog/2016/08/26/spicycomic-3-git-bisect/) about this topic._
 
 ### Resting
 

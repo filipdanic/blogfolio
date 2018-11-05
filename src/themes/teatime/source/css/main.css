@@ -131,6 +131,10 @@ figure.blog-post-image {
   }
 }
 
+.footnote {
+  font-size: 0.75em;
+}
+
 /** ==== DATES ==== */
 
 .blog-meta-info,
