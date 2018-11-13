@@ -3,6 +3,7 @@ title: Key Takeaways from Joel’s Spolsky’s WeAreDevelopers 2018 Closing Keyn
 seo_description: Did you know Jon Skeet is allowed to divide by zero? It’s true.
 promo_photo: /content/images/2018/joel-spolsky-firesidechat-wearedevelopers-2018.jpg
 date: 2018-05-25
+updated: 2018-11-13
 tags:
 ---
 During this year’s [We Are Developers](https://www.wearedevelopers.com/) conference, I had a chance to attend two of Joel’s sessions. The first was a fireside chat and the second a massive closing keynote about the past, present, and future of the community.
@@ -19,7 +20,7 @@ I got Joel to answer two of my questions. One of which was _“What’s the best
 >
 > _[Source](https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result)_
 
-I highly recommend going through Jon Skeet’s answer. Especially if you’re interested in the two major fuckeries that developers hate the most: timezones and politics.
+I highly recommend going through Jon Skeet’s answer. Especially if you’re interested in the two major fuckeries that developers hate the most: timezones and politics. `[citation needed?]`
 
 ## The Joel Test 2.0?
 
@@ -39,7 +40,7 @@ It’s good to remind ourselves that our goal shouldn’t be to play with number
 
 It’s about people.
 
-**Our goal is to make everyone welcome.** Not just to make them _feel_ welcome, but to actually take responsibility for how we greet people into our field. And this is isn’t easy. Quite frankly, we suck at it. Even basic kindness is something we struggle with.
+**Our goal is to make everyone welcome.** Not just to make them _feel_ welcome, but to actually _act on that promise._ We need to take responsibility for how we greet people into our field. And this is isn’t easy. Quite frankly, we suck at it. Even basic kindness is something we struggle with.
 
 StackOverflow is, admittedly, also pretty bad at it. Honestly, Joel didn’t offer any specific solution, but he did seem honest about trying to fix this. At the end of his talk, he issued a challenge. (And I will paraphrase once again!)
 
@@ -48,3 +49,9 @@ StackOverflow is, admittedly, also pretty bad at it. Honestly, Joel didn’t off
 I think I’ll take Joel up on the challenge. How about you?
 
 Let me know what you think [via Twitter!](https://twitter.com/DanicFilip)
+
+### Update (2018/11/13)
+
+- StackOverflow now has a [Code of Conduct](https://stackoverflow.com/conduct) that clearly outlines what sort of behaviour is no longer welcome on the site.
+- They’re making it easier to [report violations of the CoC.](https://meta.stackexchange.com/questions/313754/updated-comment-flagging-supporting-the-new-code-of-conduct)
+- In a similar fashion such as GitHub, they added a [new contributor indicator](https://meta.stackexchange.com/questions/314287/come-take-a-look-at-our-new-contributor-indicator) that should promote a kind, open-minded treatment of people who just started using SO.
