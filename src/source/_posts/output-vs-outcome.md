@@ -3,12 +3,13 @@ title: Stop Confusing Output and Outcome
 seo_description: Are you building things that matter? Is there any outcome from your work, or are you just churning out code?
 promo_photo: /content/images/2018/customer-interview-session.jpg
 date: 2018-07-16
+updated: 2019-02-26
 tags:
 ---
 
 When you add a shiny new feature to a product you’re producing some sort of **“output.”** This is what your manager sees. They’re happy when that shiny new thing looks good, works, and is delivered on time.
 
-Not all outputs are equal. Some should never have been created in the first place. Outputs themselves are not important. What a team should be measuring is the **outcome** they produce. Simply put: _what benefits does the feature bring to the customer?_
+Not all outputs are equal. Some should never have been created in the first place. Outputs themselves are not important. What a team should be measuring is the **outcome** they produce. Simply put: _what benefit (value) does the feature bring to people?_
 
 ## A Classic Case of Tunnel Vision
 
@@ -69,7 +70,7 @@ Or perhaps it could go the other way:
         <p>**Person A:** We need to make it possible for people to do `action X`.</p>
         <p>**Person B:** Why is that? Did we do our research?</p>
         <p>**Person A:** Not really. But I’ve used the app yesterday and noticed this will likely bug people.</p>
-        <p>**Person C:** Development of this feature will take a couple of days. Not counting QA.</p>
+        <p>**Person C:** Development of this feature will take two weeks. Not counting QA.</p>
         <p>**Person B:** I don’t think we can commit resources until we know that `action X` it’s worth doing.</p>
         <p>**Person A:** You’re right. I’ll add this to the list of things we need to watch for during the next phase of customer interviews and usability tests.</p>
     </blockquote>
@@ -77,11 +78,21 @@ Or perhaps it could go the other way:
 
 Either way, we’re not wasting time. We’re focusing on what’s important.
 
+## Lean UX
+
+If I had read _Lean UX_ by Jeff Gothelf earlier in my career, I would have figured all of this out much sooner. He sums it all up pretty well in this opening words for Chapter 3, _“Vision, Framing, and Outcomes.”_
+
+<div class="scenario-box">
+    <blockquote>
+        <p>Lean UX radically shifts the way we frame our work. Our goal is not to create a deliverable, it’s to change something in the world — to create an outcome. We start with assumptions instead of requirements. We create and test hypotheses. We measure to see whether we’ve achieved our desired outcomes.</p>
+    </blockquote>
+</div>
+
 ## The Road to Understanding
 
 <figure class="blog-post-image"><img src="/content/images/2018/customer-interview-session.jpg" alt="Two men, sitting and talking." /><figcaption>Listen carefully. Photo by @liwordson via nappy.</figcaption></figure>
 
-To really understand what makes an outcome desireable, you have to get out there and talk to people. If you already have a product with a userbase, then this should be easy to acomplish.
+To really understand what makes an outcome desirable, you have to get out there and talk to people. If you already have a product with a userbase, then this should be easy to accomplish.
 
 Setup interviews, respond to questions, invite them to fill out a form etc. In short: _**make it easy for them to constantly provide feedback.**_
 
