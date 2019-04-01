@@ -6,7 +6,7 @@ date: 2018-09-28
 tags:
 ---
 
-After nearly 200 hours of work, my first video course is available! _**[Hands-on Web Development with React](https://www.packtpub.com/web-development/hands-web-development-react-video)**_ is available via PacktPublishing and you can actually jump into the course for free [via Mapt.](https://www.packtpub.com/mapt/video/web_development/9781789343915) (Packt’s on-demand course platform.)
+After nearly 200 hours of work, my first video course is available! _**[Hands-on Web Development with React](https://www.packtpub.com/web-development/hands-web-development-react-video)**_ is available via Packt Publishing and you can actually jump into the course for free [via Mapt.](https://www.packtpub.com/mapt/video/web_development/9781789343915) (Packt’s on-demand course platform.)
 
 ## The Elevator Pitch
 
