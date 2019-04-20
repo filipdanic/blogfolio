@@ -93,7 +93,6 @@ blockquote:before {
   max-width: 580px;
 }
 
-
 figure.blog-post-image {
   margin: 22px auto;
 }
@@ -381,4 +380,32 @@ tr > .gutter {
   .container {
     width: 100%;
   }
+}
+
+/** ====TAG ==== */
+
+.link-tag {
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 400;
+  padding: 0.25em 0.5em;
+  color: #333 !important;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 12px;
+  transition: 160ms all;
+  font-family: poppins,sans-serif;
+}
+
+.link-tag:hover {
+  background: #f6f8fa;
+}
+
+.link-tag:visited, .link-tag:active {
+  color: #333 !important;
+}
+
+.link-tag img {
+  height: 14px;
 }
