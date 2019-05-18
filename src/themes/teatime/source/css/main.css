@@ -407,5 +407,6 @@ tr > .gutter {
 }
 
 .link-tag img {
-  height: 14px;
+  height: 24px;
+  vertical-align: middle;
 }
