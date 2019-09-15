@@ -204,12 +204,13 @@ p.date-info {
 }
 
 .alert-box__info {
-  background-color: #44986f;
-  color: #fff;
+  background-color: #afa0fe;
+  color: white;
 }
 
-.alert-box__info a {
-  color: #eee137;
+.alert-box__info a,
+.alert-box__info a:visited {
+  color: #080d6d;
 }
 
 /* ==== UTILITIES ==== */
