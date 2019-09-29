@@ -10,23 +10,7 @@ The information on this page is for anyone who might want to invite me to their 
 
 ## Past Talks
 
-🇷🇸 **Voxxed Days Belgrade 2017** <span class="date-info">19/10/2017</span>
-
-“How to Design and Build Chatbots that People will Love!”
-
-👉 <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank">Conference site.</a> <a href="https://www.youtube.com/watch?v=UT0hDoEOHj8" target="_blank">Video and slides.</video>
-
-🇱🇹 **DevDays Vilnius** <span class="date-info">18/05/2017</span>
-
-“How to Design and Build Chatbots”
-
-👉 <a href="http://devdays.lt/filip/" target="_blank">Conference site.</a> <a href="https://speakerdeck.com/filipdanic/how-to-build-and-design-chatbots-devdays-vilnius-2017" target="_blank">Slides.</a>
-
-🇷🇸 **Voxxed Days Belgrade 2016** <span class="date-info">30/10/2016</span>
-
-“Complex State Handling in Modern Web Apps”
-
-👉 <a href="https://belgrade.voxxeddays.com/16/talk/235/" target="_blank">Conference site.</a> <a href="https://speakerdeck.com/filipdanic/complex-state-handling-in-modern-web-apps-filip-danic-at-voxxed-days-belgrade-2016" target="_blank">Slides.</a>
+<div> <a href="https://heapcon.io/speakers/filip-danic/its-time-to-reinvent-the-web-without-the-internet/" target="_blank" class="link-tag" rel="noopener noreferrer" title="Heapcon 2019"> Heapcon 2019 </a> <a href="https://www.instagram.com/p/ByH8bfjBpmr/" target="_blank" class="link-tag" rel="noopener noreferrer"> INAT Summit 2019 </a> <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank" class="link-tag" rel="noopener noreferrer"> Voxxed Days Belgrade 2017 </a> <a href="https://www.meetup.com/SuperAdmins/" target="_blank" class="link-tag" rel="noopener noreferrer"> Super Admins </a> <a href="https://www.meetup.com/Practical-UX/" target="_blank" class="link-tag" rel="noopener noreferrer"> Practical UX </a> <a href="https://devdays.lt/" target="_blank" class="link-tag" rel="noopener noreferrer"> DevDays Vilnius 2017 </a> <a href="http://www.umrezavanje.rs/" target="_blank" class="link-tag" rel="noopener noreferrer"> Umrežavanje </a> <a href="https://belgrade.voxxeddays.com/16/talk/235/" target="_blank" class="link-tag" rel="noopener noreferrer"> Voxxed Days Belgrade 2016 </a> </div>
 
 ## Meetups
 
