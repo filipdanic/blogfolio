@@ -80,7 +80,7 @@ It’s no surprise that this town was chosen as the filming spot for the HBO hit
 
 ## Day 5: Sant Feliu de Guíxols
 
-Chilling by the pool is one thing. But, chilling on the beautiful Costa Brava is a whole different level. I envy the Guixolense for the beautiful [golden hour](https://en.wikipedia.org/wiki/Golden_hour_(photography) that they get to enjoy every day.
+Chilling by the pool is one thing. But, chilling on the beautiful Costa Brava is a whole different level. I envy the Guixolense for the beautiful <a href="https://en.wikipedia.org/wiki/Golden_hour_(photography)" target="_blank" title="Wikipedia: Golden Hour (Photography)">golden hour</a> that they get to enjoy every day.
 
 <figure class="blog-post-image blog-post-image-small"><img src="/content/images/2018/workation/18_sant_feliu_de_guixols.jpg" alt="Golden Hour Photo 1" /><figcaption>The marina on the left.</figcaption></figure>
 
