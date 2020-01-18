@@ -1,6 +1,6 @@
 ---
 title: How to Use Option (Alt) + Arrows To Navigate Between Words in iTerm2
-seo_description: A quick guide on how to use Alt + left arrow and Alt + right arrow to move between words with iTerm2. Or rather backward-word and forward-word. 
+seo_description: A quick guide on how to use Alt + left arrow and Alt + right arrow to move between words with iTerm2. Or rather backward-word and forward-word.
 promo_photo: /content/images/2018/iterm2_option_keyescape_chars.png
 date: 2018-08-30
 tags:
@@ -10,11 +10,15 @@ I’ll be honest, I’m not much of a terminal power user. I use iTerm2 as my te
 
 Apparently, this is actually called _backward-word_ and _forward-word._ You can see your current setup with:
 
-<code>bindkey -L | grep backward-word</code>
+```bash
+bindkey -L | grep backward-word
+```
 
 And:
 
-<code>bindkey -L | grep forward-word</code>
+```bash
+bindkey -L | grep forward-word
+```
 
 <figure class="blog-post-image"><img src="/content/images/2018/keybinds_backward_word_forward_word.png" alt="Sample output of running the previous command." /><figcaption>Sample output.</figcaption></figure>
 
@@ -34,7 +38,7 @@ Then, in your **Key Mappings** on the same screen, we need to redefine the short
 
 <figure class="blog-post-image"><img src="/content/images/2018/iterm2-key-mappings.png" alt="Screenshot of Key Mappings Section" /><figcaption>Screenshot of Key Mappings Section</figcaption></figure>
 
-Find the current shortcut for <kbd>⌥</kbd> + <kbd>←</kbd> (or create a new one), with the following settings:  
+Find the current shortcut for <kbd>⌥</kbd> + <kbd>←</kbd> (or create a new one), with the following settings:
 
 - _Action:_ **Send Escape Sequence**
 - _Esc +:_ <kbd>b</kbd>

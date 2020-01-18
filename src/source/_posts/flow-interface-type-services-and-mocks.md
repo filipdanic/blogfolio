@@ -24,18 +24,17 @@ An `interface` is a group of related methods with empty bodies that define their
 ```javascript
 /* @flow */
 interface Vehicle {
-  // property definition
-  currentSpeed: number; 
-  // methods  
+  currentSpeed: number;
   speedUp(amount: number): void;
   slowDown(amount: number): void;
   getCurrentSpeed(): number;
 }
+```
 
+```javascript
+/* @flow */
 interface Aircraft {
-  // property definition
   currentAltitude: number;
-  // methods  
   increaseAltitude(amount: number): void;
   decreaseAltitude(amount: number): void;
   getCurrentAltitude(): number;
@@ -46,23 +45,23 @@ And then have your classes _implement_ them.
 
 ```javascript
 /* @flow */
-
 class RobotCar implements Vehicle {
   currentSpeed = 0;
   speedUp(amount: number) {...};
   slowDown(amount: number) {...};
   getCurrentSpeed(amount: number) {...};
 }
+```
 
+```javascript
+/* @flow */
 // implement multiple interfaces!
 class RobotCopter implements Vehicle, Aircraft {
   currentSpeed = 0;
   currentAltitude = 0;
-
   speedUp(amount: number) {...};
   slowDown(amount: number) {...};
   getCurrentSpeed(amount: number) {...};
-
   increaseAltitude(amount: number) {...};
   decreaseAltitude(amount: number) {...};
   getCurrentAltitude() {...};
@@ -100,9 +99,9 @@ When it comes to _mocking data_, interfaces also make life easier. Let’s say n
 Well, let’s just make a `MockFinanceService` that implements `FinancialService`. Then, we can use `.env` configs to specify what we want to be used:
 
 ```javascript
-const service: FinanceService = 
-  config.useMocks || config.isTestEnv ? 
-  MockFinanceService : 
+const service: FinanceService =
+  config.useMocks || config.isTestEnv ?
+  MockFinanceService :
   getImplementationClass();
 ```
 
