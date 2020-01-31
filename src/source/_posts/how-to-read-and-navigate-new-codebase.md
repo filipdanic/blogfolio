@@ -7,7 +7,7 @@ updated: 2018-11-05
 tags:
 ---
 
-Are you excited about inheriting an old project? ~Me neither.~ Most engineers are not. Especially if _“legacy”_ is one of the words that pop up in the meeting.
+Are you excited about inheriting an old project? Most engineers are not. Especially if _“legacy”_ is one of the words that pop up in the meeting.
 
 I’ve been maintaining and improving a project that sounds a lot like that. It’s been a bit frustrating, but it has helped me learn a lot and grow as an engineer. This article is a collection of tips and tricks on how to deal with projects that fit this description.
 
@@ -148,7 +148,7 @@ I’d say that these features are:
 - `go-to` definition,
 - intelligent code completion (_“intellisense”_ and the like),
 - structure pop-up,
-- jump to decleration,
+- jump to deceleration,
 - jump down the hierarchy, and
 - show usage.
 
@@ -229,7 +229,6 @@ Are you a junior developer? Then all the new patterns and ~~needless~~ clever ab
 So with that in mind don’t make things harder for yourself.
 
 Give yourself time to breathe. Don’t lose sleep over this. Fight your managers if they try to put you in a crunch or assign impossible-to-hit deadlines.
-
 
 ## Final Takeaways
 
