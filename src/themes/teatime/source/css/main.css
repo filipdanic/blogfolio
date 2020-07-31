@@ -185,7 +185,7 @@ p.date-info {
   color: #fbfec5;
   background-size: cover;
   background-color: #afa0fe;
-  min-height: 320px;
+  min-height: 120px;
 }
 
 @media only screen and (max-width: 920px) {
