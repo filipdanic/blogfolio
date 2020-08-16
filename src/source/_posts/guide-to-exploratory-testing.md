@@ -75,7 +75,9 @@ Finding bugs before your customers do is extremely valuable and Exploratory test
 
 ### Usability and Accessibility Issues
 
-The more diverse your testers, the more you can expect to learn about usability problems. Strive to include people with various motor, vision, hearing, and cognitive impairments in your organization! The improvements that arise from this will benefit all of your other customers as well as those with impairments. There is no excuse to avoid this. There is no excuse to avoid focusing on this.
+The more diverse your testers, the more you can expect to learn about usability problems. Strive to include people with various motor, vision, hearing, and cognitive impairments in your organization!
+
+The improvements that arise from this will benefit all of your other customers as well as those with impairments. There is no excuse to avoid focusing on this.
 
 ### User Experience Issues
 
