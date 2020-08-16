@@ -21,7 +21,7 @@
     <meta property="og:title" content="<%= page.title ? page.title : config.seo_index_title %><%= page.title ? config.seo_post_trailing_title  : '' %>">
     <meta property="og:description" content="<%= page.seo_description ? page.seo_description : config.seo_index_description %>">
     <meta property="og:image" content="<%= config.url %><%= page.promo_photo ? page.promo_photo : config.promo_photo_default %>">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="h_bzcBQR2grNCHKADNlQWKm6DXpBuSj_p2_CGSFrpVk" />
     <%- css('css/main') %>
   </head>
