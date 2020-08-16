@@ -45,9 +45,9 @@ It’s a process that values individuality and diversity. The more diverse the t
 
 ### Charters and Timeboxes
 
-You don’t always have to test the whole system. Instead, you can set specific testing goals, commonly referred to as charters. An example might be: _“Explore the newest filtering options”_ or _“Explore the new report builder interface.”_
+You don’t always have to test the whole system. Instead, you can set specific testing goals, commonly referred to as **charters.** An example might be: _“Explore the newest filtering options”_ or _“Explore the new report builder interface.”_
 
-Some teams also like to timebox these tests. I’d say that makes sense if your testers already know the system a bit and are trying to only test one part of it. For a full system test, I would not assign any explicit timeboxing.
+Some teams also like to timebox these tests. I’d say that makes sense if your testers already know the system a bit and are trying to only test one part of it. For a full system test, I would not assign any timeboxes.
 
 ### Documenting the Test
 
@@ -55,7 +55,7 @@ Some teams also like to timebox these tests. I’d say that makes sense if your 
 
 The purpose isn’t necessarily so others could review (though that would be great!), but for the tester to refer to the recording while they create their documentation. This way they can easily grab screenshots or refer to a time segment where something weird happened. It also ensures that they don’t forget any details.
 
-Writing things down as you’re testing is a burden that takes away from the exploratory nature of the process. You can do that later.
+Writing things down as you’re testing is a burden that takes away from the exploratory nature of the process. Do it later.
 
 ## Quantifying the Testing Data
 
@@ -63,19 +63,19 @@ A bit of a problem with this approach is quantifying the results and value that 
 
 ### Onboarding Issues
 
-If a tester isn’t a domain expert or has never used the software previously, you could expect some of their problems and feedback to be related to the onboarding process. If this product is alien to them then this will be a good test of how easy it is for someone to pick up and use your software.
+If a tester isn’t a domain expert or has never used the software previously expect their problems and feedback to be centered on the onboarding process. If this product is alien to them then this will be a good test of how easy it is for someone to pick up and use your software.
 
 ### Domain-related Issues
 
-This is the **jackpot category.** If a domain export identifies something is wrong with how the system displays or performs a business process then you’re getting a lot of value of this testing practice.
+This is the **jackpot category.** If a domain export identifies something is wrong with how the system displays or performs a business process, then you’re getting a lot of value out of this testing practice.
 
 ### Bugs
 
 Finding bugs before your customers do is extremely valuable and Exploratory testing will likely result in the discovery of some bugs. While this is great, don’t focus solely on the bugs, look for all the other issues as well!
 
-### Usability Issues
+### Usability and Accessibility Issues
 
-The more diverse your testers, the more you can expect to learn about usability problems. Strive to include people with disabilities in your organization!
+The more diverse your testers, the more you can expect to learn about usability problems. Strive to include people with various motor, vision, hearing, and cognitive impairments in your organization! The improvements that arise from this will benefit all of your other customers as well as those with impairments. There is no excuse to avoid this. There is no excuse to avoid focusing on this.
 
 ### User Experience Issues
 
