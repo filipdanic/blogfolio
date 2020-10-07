@@ -1,8 +1,9 @@
 ---
 title: The Red Flags on Your Resume
-seo_description: Lear about the red flags that recruiters look on your resume. Learn how to write a good CV!
+seo_description: Lear about the red flags that recruiters look on your resume. Learn how to write a good resume or CV!
 promo_photo: /content/images/2020/resume-red-flags.jpg
 date: 2020-09-28
+updated: 2020-10-07
 tags:
 ---
 
@@ -14,7 +15,7 @@ I’m going to give insight into the red flags that I notice on people’s resum
 
 ## Signals vs Noise 
 
-Reading a CV is about identifying signals and skipping the “noise.” Let’s stick to positive things for now. These are my favorite signals:
+Reading a resume is about identifying signals and skipping the “noise.” Let’s stick to positive things for now. These are my favorite signals:
 
 - Attention to detail.
 - Technical mastery.
@@ -35,7 +36,7 @@ Take the signals I outlined above and think about how many of them I can find pe
 
 ### Resumes are Full of Noise
 
-I’ve seen hundreds of CVs and many of them are so full of noise. If you have under 5 years of experience, you can fit your resume to a single page. You might have to use a 2-column layout, but you can definitely do it. Even if you have 10+ years of experience, a single page is probably enough.
+I’ve seen hundreds of resumes and many of them are so full of noise. If you have under 5 years of experience, you can fit your resume to a single page. You might have to use a 2-column layout, but you can definitely do it. Even if you have 10+ years of experience, a single page is probably enough.
 
 We expect engineers to write clean, concise, well-structured code. The same goes for resumes. If you can’t get the point across in just one page, then you need to get back to the drawing board.
 
@@ -92,9 +93,9 @@ You don’t want the first impression to be a red flag. Even if you got a lot of
 
 Before I can get any positive signals I might encounter negative ones in form of spelling, grammar, or styling errors. This is “first bias” territory.
 
-These are not acceptable and they will weigh against you. If your CV is not in your native language, you do not get a free pass. You are judged the same as everyone else.
+These are not acceptable and they will weigh against you. If your resume is not in your native language, you do not get a free pass. You are judged the same as everyone else.
 
-These errors indicate that you do not take things seriously. You lack attention to detail and professionalism. How can I expect you to communicate well with the team or our clients if you can’t communicate well on your own CV? 
+These errors indicate that you do not take things seriously. You lack attention to detail and professionalism. How can I expect you to communicate well with the team or our clients if you can’t communicate well on your own resume? 
 
 _**On the other hand, a spotless resume also comes with the benefit of sending out some positive signals.**_
 
