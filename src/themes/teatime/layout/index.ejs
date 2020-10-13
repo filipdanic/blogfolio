@@ -97,6 +97,21 @@
   </div>
 
   <div class="content">
+    <h2>Writing</h2>
+    <% page.posts.limit(5).each(function(post){ %>
+      <div class="post-card">
+        <p class="date-info"><%= date(post.date, config.date_format) %></p>
+        <p>
+          <a href="<%- url_for(post.path) %>">
+            <%= post.title %>
+          </a>
+        </p>
+      </div>
+    <% }) %>
+    <p class="text-small"><a href="/writing" title="All essays">See all essays.</a></p>
+  </div>
+
+  <div class="content">
     <h2>Open Source</h2>
     <p>I make hundreds of contributions to open source each year, but I still feel I could make a bigger impact than I currently am. The problem of funding in the OSS community is known issue and I’m still searching for a solution of my own.</p>
     <h3>Orgs I’ve Contributed To</h3>
@@ -190,21 +205,6 @@
         listify-messenger-webhook-events
       </a>
     </div>
-  </div>
-
-  <div class="content">
-    <h2>Writing</h2>
-    <% page.posts.limit(5).each(function(post){ %>
-      <div class="post-card">
-        <p class="date-info"><%= date(post.date, config.date_format) %></p>
-        <p>
-          <a href="<%- url_for(post.path) %>">
-            <%= post.title %>
-          </a>
-        </p>
-      </div>
-    <% }) %>
-    <p class="text-small"><a href="/writing" title="All essays">See all essays.</a></p>
   </div>
 </div>
 
