@@ -1,21 +1,23 @@
 ---
-title: How to Read and Navigate a New Codebase
+title: How to Master a New Codebase
 seo_description: Dealing with a large “legacy” codebase? Here’s a collection of tips and tricks on how to deal read and navigate the code.
 promo_photo: /content/images/2017/uncharted-lands.jpg
 date: 2017-08-06
-updated: 2018-11-05
+updated: 2020-11-01
 tags:
 ---
 
-Are you excited about inheriting an old project? Most engineers are not. Especially if _“legacy”_ is one of the words that pop up in the meeting.
+Jumping into a new project can be scary. Especially if _“legacy”_ the words used to describe it. But if you learn the right techniques to navigating a new codebase then on-boarding will take a lot less time.
 
-I’ve been maintaining and improving a project that sounds a lot like that. It’s been a bit frustrating, but it has helped me learn a lot and grow as an engineer. This article is a collection of tips and tricks on how to deal with projects that fit this description.
+Over my 5+ year career I’ve had to switch between projects of various sizes. It’s been frustrating at times, but I’ve noticed certain _patterns_ over the years. 
+
+This article is an evolving collection of techniques that I’ve developed to help me become as productive as possible. I recently [joined Amazon](/2020/hello-amsterdam) and this methodology has proven its worth for me – allowing me to contribute since week 1!
 
 ## Traversing Uncharted Territory
 
 <figure class="blog-post-image"><img src="/content/images/2017/uncharted-lands.jpg" alt="The great outdoors: mountains, trees, a lake." /><figcaption>Where do you start? Photo by tpsdave via Pixabay.</figcaption></figure>
 
-_Let me set the scene. This is a short personal anecdote that will be entertaining to read. It also provides the context for the rest of the article. (You can skip this part [by clicking here.](#How-to-Dive-Into-a-Large-Codebase))_
+_Let me set the scene. This is a short personal anecdote from 5 years ago that will be entertaining to read. It’s purpose is to show just how hard it can be to join a large codebase. (You can skip this part [by clicking here.](#How-to-Dive-Into-a-Large-Codebase))_
 
 ### Part 1: Problem Setup
 
@@ -29,7 +31,7 @@ Ever read a murder mystery, but instead of solving a murder, the character is fi
 
 **💡 To clarify:** The client is not making this up. You refer to their screenshots and also note that the form looks different on their end. (The styles don’t match.)
 
-How do you tackle this? Working with bugs that are hard to reproduce is a hard time. What’s the thought process and where do you start looking first?
+How do you tackle this? Working with bugs that are hard to reproduce is a hard time. What’s the thought process and where do you start looking first? Also, remember: _you’re new to this large codebase._
 
 <div class="alert-box alert-box__info">🤔 Try to think of a couple of possible problems. Let me know if your intuition guessed what the problem was!</div>
 
@@ -69,7 +71,11 @@ Now, I’ve seen this “bootstrap” file before, but don’t remember seeing a
 
 As expected I did not find any magical `if/else` statement. What I did find was a `registerImplementation()` call for `Component A`, but none for `Component B`.
 
-I read the file line-by-line and towards the bottom of the file, I noticed something I missed earlier. There was a `require` statement for a file called `mobileAppClient`.  In this file was a magical block of code:
+I read the file line-by-line and towards the bottom of the file, I noticed something I missed earlier. There was a `require` statement for a file called `mobileAppClient`. 
+
+#### The Mystery Solved
+
+In this file was a magical block of code:
 
 ```
 if (app.getIsMobile()) {
@@ -90,7 +96,10 @@ function app.getIsMobile() {
 
 This logic treated every device with a touchscreen as a mobile device. Sure enough, my colleague's laptop did have a touchscreen. And so did the client who reported the bug.
 
-Reimplemented this method in a more sophisticated way solved the bug. Hooray! 🎉 🎉 🎉
+I reimplemented this method in a more sophisticated way and **properly** solved the bug. Hooray!
+
+<figure class="blog-post-image"><img src="/content/images/2017/crawl-graph.png" alt="A simplified version of our crawl path." /><figcaption>A simplified view of all the files I had to go through.</figcaption></figure>
+
 
 ## Grasping The Unfamiliar
 
@@ -100,7 +109,7 @@ The hunt for the source of this little bug took around 3 hours.
 
 It also lead us to a bigger discussion about the app’s mobile experience. (Which was in poor state.)
 
-As for me, this experience helped me get a better grasp of the entire system. As I encountered something new or unusual I’d take a note of it. I was writing a traveler’s journal of this unfamiliar codebase.
+As for me, this experience helped me get a better grasp of the entire system. As I encountered something new or unusual I’d take a note of it. I was writing a _“traveler’s journal”_ of this unfamiliar codebase.
 
 This is why hunting bugs in a large codebase you’re not familiar with can be summed up as: _“Solving a (~~murder~~) mystery in an unfamiliar land.”_
 
@@ -108,19 +117,18 @@ You first have to get your bearings, chart out the land, and then start gatherin
 
 ## How to Dive Into a Large Codebase
 
-(I hope you didn’t skip the anecdote by the way. If you did, <a href="https://twitter.com/DanicFilip" target="_blank" title="Twitter, @DanicFilip">please tell me why.</a>)
-
-Diving into a large codebase, eh? Eventually, you’ll get the hang of it.
+First of all, understanding the codebase is something that is bound to happen _eventually._ But, if you’re expected to do it often then it helps to develop the techniques that make it easier.
 
 <figure class="blog-post-image"><img src="/content/images/2017/diving-into-code.jpg" alt="Image of a diver in the sea." /><figcaption>Diving deep. Photo by uccisea1970 via Pixabay.</figcaption></figure>
 
 But, if you have to do this on a regular basis, how can you get good (and fast!) at doing it? It comes down to a couple of techniques. I call them:
 
-- observing and researching,
-- digging,
-- breaking,
-- time traveling, and
-- resting
+- Observing and researching,
+- Testing,
+- Digging,
+- Breaking,
+- Time traveling, and
+- Resting
 
 I know the names are not brilliant, but let’s see what they bring to the table.
 
@@ -128,17 +136,62 @@ I know the names are not brilliant, but let’s see what they bring to the table
 
 The first thing you should do on a new project is to spend time using the app in a production environment. Get to know all the features and the business problems the app is solving.
 
-**This step is crucial to understanding the project. Especially if this is a business domain that you are unfamiliar with.**
+The best way to go about this is [exploratory testing.](/2018/guide-to-exploratory-testing)
+
+This step is crucial to understanding the project. Especially if this is a business domain that you are unfamiliar with.
+
+#### Get an On-boarding Buddy
+
+Your time will be a lot easier if you find someone who has tenure in the project and is open to answering your question. 
+
+Don’t disregard engineers who might have much less experience than you. Anyone who has been around longer than you is a great source of knowledge. _Project tenure_ is the most important metric.
+
+It’s best for this person to be a fellow engineer. You can find a separate person who you can look up to as a domain expert.
+
+#### Read the Docs
 
 After that, you should do detailed research to find all the documentation that exists. (But, take the docs with a grain of salt as they are likely outdated.)
 
-Working with someone who has prior experience with this project? Compile a list of questions and ask for help.
+Here’s what you’re looking for (in order of importance):
+- All the project README files. (Check when they were last updated.)
+- A project wiki.
+- Recent meeting notes (preferably with key stakeholders.)
+- Architecture design docs.
+- Deployment docs.
+- Backlog of upcoming epics.
+- Backlog of _fixed_ issues.
+- User interview reports, videos, etc.
+- Mockups of upcoming features.
+
+#### Improve the Docs
+
+At a minimum there’s going be a README file for the project you just joined. This file will be outdated (I can bet on it!) and the instruction will likely be unclear.
+
+Most devs write this file from their point of understanding – they _already_ know how to start the system. The README is just a short set of important notes for them. This is why newcomers to the project always struggle to follow the instructions.
+
+This means you have a great role to play. You are coming to the project with no prior understanding and you can (and must!) update everything as you go.
+
+### Read the Tests
+
+I hope you’ve just joined a project that actually has tests. If so, tests are basically a form of documentation. You can figure out a lot about the project by looking at:
+- The names of the test cases.
+- The associated inputs and expected outputs.
+- Modules with the most edge cases covered – usually the most critical ones.
+- The way third-party services are mocked and integrated.
+
+You don’t need to look too much into the implementation of the tests until it becomes relevant to your task.
+
+#### Improve the Tests
+
+Just like with docs, not every team treats their tests with a high standard. Improving tests by covering edge cases or uncovered lines is a great way to dig deep into a specific piece of code. It also benefits the project and **makes for a good early contribution.**
+
+If the project doesn’t have any tests then implementing them might be hard for you as a newcomer. You’ll have to earn trust with your team and manager before leading a big initiative like that. (But if you have a green light to do it, take it right away!)
 
 ### Digging
 
 This series of techniques is out-of-scope for the purposes of this article. I will list the concepts and trust you to do your homework and research the things you’re not familiar with.
 
-**But, it mostly boils down to using a good editor or IDE and actually using those the features that make that editor awesome.**
+**But, it mostly boils down to using a good editor or IDE and actually using the features that make that editor awesome.**
 
 <figure class="blog-post-image"><img src="/content/images/2017/dont-dig-with-kids-toys.jpg" alt="Image of children’s shovels on the beach." /><figcaption>Use better tools. Photo by Efraimstochter via Pixabay.</figcaption></figure>
 
@@ -149,8 +202,11 @@ I’d say that these features are:
 - intelligent code completion (_“intellisense”_ and the like),
 - structure pop-up,
 - jump to deceleration,
-- jump down the hierarchy, and
-- show usage.
+- jump down the hierarchy,
+- show usage, 
+- regex search, 
+- git integration (to quickly inspect file history), and
+- linter integration.
 
 These make it easy to navigate any project with speed. They also shine when dealing with a new codebase.
 
