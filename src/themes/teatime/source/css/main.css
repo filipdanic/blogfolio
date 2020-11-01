@@ -145,6 +145,7 @@ figure.blog-post-image {
 .date-info {
   opacity: 0.75;
   font-size: 0.75em;
+  margin-bottom: 2px;
 }
 
 p.date-info {

@@ -28,8 +28,13 @@
         <div class="col-12">
           <div class="blog-content">
             <p class="blog-meta-info">
-              Posted on <%= date(page.date, config.date_format) %> by <%= config.author %>.
+              First posted on <%= date(page.date, config.date_format) %> by <%= config.author %>.
             </p>
+            <% if (page.updated) { %>
+              <p class="blog-meta-info">
+                Last updated on <%= date(page.updated, config.date_format) %>.
+              </p>              
+            <% } %>
           </div>
         </div>
       </div>
