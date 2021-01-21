@@ -50,6 +50,6 @@ Find or create a shortcut for <kbd>⌥</kbd> + <kbd>→</kbd> as well with:
 - _Action:_ **Send Escape Sequence**
 - _Esc +:_ <kbd>f</kbd>
 
-<figure class="blog-post-image"><img src="/content/images/2018/iterm2_forward_word.png" alt="Configure backward-word" /><figcaption>Configure forkward-word</figcaption></figure>
+<figure class="blog-post-image"><img src="/content/images/2018/iterm2_forward_word.png" alt="Configure backward-word" /><figcaption>Configure forward-word</figcaption></figure>
 
 And that’s it, happy hacking! 🎉 If you end up having a lot of these presets, it would be a good idea to export and save them somewhere for future use.
