@@ -28,7 +28,7 @@ Moving from a product agency to one of the largest tech giants on the planet is 
 
 I can’t wait to see things move and operate at Amazon scale. I’ll be on the FinTech team, so I’m sure I’ll be able to peek inside of various organizations within Amazon.
  
-I’m sure I’ll get a chance to share the new things I discover and learn with you via this blog. Also, subscribe to [my newsletter](https://danicfilip.substack.com/p/coming-soon) if you want to keep up to date!
+I’m sure I’ll get a chance to share the new things I discover and learn with you via this blog.
 
 ## Goodbye, Belgrade!
 

@@ -219,42 +219,6 @@ p.date-info {
   color: #080d6d;
 }
 
-.alert-box__substack {
-  padding: 16px;
-  background-color: whitesmoke;
-  color: #393939 ;
-  text-align: center;
-  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, .5);
-}
-
-.alert-box__substack a,
-.alert-box__substack a:visited {
-  color: #FF6719;
-  font-weight: 700;
-}
-
-.alert-box__substack button {
-  display: block;
-  margin: 12px auto 0 auto;
-  background: none;
-  border: none;
-  font-family: poppins, sans-serif;
-  font-size: 12px;
-  cursor: pointer;
-  font-weight: 700;
-}
-
-#substack-info {
-  position: fixed;
-  bottom: 0;
-  max-width: 900px;
-  display: flex;
-  align-self: center;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 9999;
-}
-
 /* ==== UTILITIES ==== */
 
 .text-small {
