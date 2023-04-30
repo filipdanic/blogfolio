@@ -3,7 +3,8 @@ title: "Revisited: Avoiding Booleans When Designing React Components"
 seo_description: I’ll clear out 3 misconceptions and provide another big benefit of sticking to the advice outlined in the original article.
 promo_photo: /content/images/2020/designing-react-components-booleans.jpg
 date: 2020-01-18
-tags:
+categories: engineering
+
 ---
 
 Last year I wrote a post titled <a href="https://spicefactory.co/blog/2019/03/26/how-to-avoid-the-boolean-trap-when-designing-react-components/" title="How to Avoid the Boolean Trap When Designing React Components" target="_blank">“How to Avoid the Boolean Trap When Designing React Components”</a> for the SpiceFactory blog. I recommend giving that a skim before continuing because this article will revisit some of the points I made back then.

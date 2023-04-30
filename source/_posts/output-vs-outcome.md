@@ -4,7 +4,8 @@ seo_description: Are you building things that matter? Is there any outcome from 
 promo_photo: /content/images/2018/customer-interview-session.jpg
 date: 2018-07-16
 updated: 2019-02-26
-tags:
+categories: engineering
+
 ---
 
 When you add a shiny new feature to a product you’re producing some sort of **“output.”** This is what your manager sees. They’re happy when that shiny new thing looks good, works, and is delivered on time.

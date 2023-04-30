@@ -3,7 +3,8 @@ title: How to Use Option (Alt) + Arrows To Navigate Between Words in iTerm2
 seo_description: A quick guide on how to use Alt + left arrow and Alt + right arrow to move between words with iTerm2. Or rather backward-word and forward-word.
 promo_photo: /content/images/2018/iterm2_option_keyescape_chars.png
 date: 2018-08-30
-tags:
+categories: shorts
+
 ---
 
 I’ll be honest, I’m not much of a terminal power user. I use iTerm2 as my terminal emulator and there are some things I like to customize. And it bugs me how cumbersome it is to enable the ability to switch between words with <kbd>⌥</kbd> + <kbd>←</kbd> and <kbd>⌥</kbd> + <kbd>→</kbd>.

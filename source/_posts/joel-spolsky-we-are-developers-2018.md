@@ -4,7 +4,8 @@ seo_description: Did you know Jon Skeet is allowed to divide by zero? It’s tru
 promo_photo: /content/images/2018/joel-spolsky-firesidechat-wearedevelopers-2018.jpg
 date: 2018-05-25
 updated: 2018-11-13
-tags:
+categories: engineering
+
 ---
 During this year’s [We Are Developers](https://www.wearedevelopers.com/) conference, I had a chance to attend two of Joel’s sessions. The first was a fireside chat and the second a massive closing keynote about the past, present, and future of the community.
 

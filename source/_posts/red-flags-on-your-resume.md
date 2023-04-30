@@ -4,7 +4,8 @@ seo_description: Lear about the red flags that recruiters look on your resume. L
 promo_photo: /content/images/2020/resume-red-flags.jpg
 date: 2020-09-28
 updated: 2020-10-07
-tags:
+categories: engineering
+
 ---
 
 This week I left [a comment on the React subreddit](https://www.reddit.com/r/reactjs/comments/j013yg/i_applied_for_100_jobs_but_no_interview/g6n876s/?utm_source=reddit&utm_medium=web2x&context=3) that critiqued a resume that was posted. It got **_a lot of_** upvotes. 

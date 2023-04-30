@@ -4,7 +4,8 @@ seo_description: Dealing with a large “legacy” codebase? Here’s a collecti
 promo_photo: /content/images/2017/uncharted-lands.jpg
 date: 2017-08-06
 updated: 2020-11-01
-tags:
+categories: engineering
+
 ---
 
 Jumping into a new project can be scary. Especially if _“legacy”_ the words used to describe it. But if you learn the right techniques to navigating a new codebase then on-boarding will take a lot less time.

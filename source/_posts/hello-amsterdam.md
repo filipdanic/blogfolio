@@ -3,7 +3,8 @@ title: Hello, Amsterdam! Hello, Amazon!
 seo_description: How cities need to change and what they should avoid.
 promo_photo: /content/images/2020/amsterdam-canal.jpg
 date: 2020-10-03
-tags:
+categories: life
+
 ---
 
 With a global pandemic and all the chaos in the world, 2020 may not have been the best year to move to another country. Yet, here I find myself moving to the Netherlands to join Amazon!

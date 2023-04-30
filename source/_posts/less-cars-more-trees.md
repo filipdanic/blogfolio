@@ -3,7 +3,8 @@ title: Less Cars, More Trees (Rant)
 seo_description: How cities need to change and what they should avoid.
 promo_photo: /content/images/2020/amsterdam-bikes.jpg
 date: 2020-07-31
-tags:
+categories: life
+
 ---
 
 During the COVID-19 pandemic, [road traffic has significantly](https://www.theguardian.com/world/ng-interactive/2020/apr/27/the-traffic-data-that-shows-the-road-into-and-out-of-covid-19-lockdown) decreased across the globe. For a city that wants to decrease the number of cars on the roads, this was a perfect moment to act. Responsible governments introduced more bike lanes and improved public transport to make social distancing measures possible.

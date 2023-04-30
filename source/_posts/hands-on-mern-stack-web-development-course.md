@@ -3,7 +3,8 @@ title: Hands-on MERN Stack Web Development (Video Course)
 seo_description:
 promo_photo: /content/images/2019/mern-stack-development-course.png
 date: 2019-04-01
-tags:
+categories: engineering
+
 ---
 
 After several months of work, I’m happy to announce that my second course, _**[Hands-on MERN Stack Web Development ](https://www.packtpub.com/web-development/hands-mern-stack-web-development-video)**_ is available on Packt. You can purchase the course and own it for life, or select a Mapt subscription to get access to all of Packt’s courses on-demand. (There’s a free 10-day trial. 😉)

@@ -3,7 +3,8 @@ title: Memoir of The SpiceFactory Workation (Catalonia, 2018)
 seo_description: A collection of stories and photos from the annual SpiceFactory workation.
 promo_photo: /content/images/2018/workation/01_airport_spicefactory_group_photo.jpg
 date: 2018-10-03
-tags:
+categories: life
+
 ---
 
 

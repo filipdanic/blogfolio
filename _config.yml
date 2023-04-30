@@ -39,7 +39,8 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: true # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link:
+  enable: true # Open external links in new tab
 filename_case: 1 # Transform filenames to lowercase
 render_drafts: false
 post_asset_folder: false # https://hexo.io/docs/asset-folders.html

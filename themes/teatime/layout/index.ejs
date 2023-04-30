@@ -3,7 +3,7 @@
     <div class="content">
       <h1><%= config.title %></h1>
       <p>
-          Hey! 👋 I’m Filip and I’m a software engineer. I write and nurture good code, best practices, and maintainable software. Mostly working with the TypeScript ecosystem.
+          Hey, 👋 I’m Filip! I’m currently building big-data compliance systems at Amazon FinTech in Amsterdam.
       </p>
     </div>
   </div>
@@ -43,18 +43,23 @@
   </div>
 
   <div class="content">
-    <h2>Writing</h2>
-    <% page.posts.limit(5).each(function(post){ %>
+    <h2>Blog posts</h2>
+    <p>I now run a dedicated blog called <a href="https://www.thesoftwarelounge.com/" target="_blank">The Software Lounge</a> where I post a new article every 2 weeks or so. I hope you’ll check it out! Below is an archive of old blog posts and some choice content.</p>
+    <% site.posts.sort('date', -1).limit(8).each(function(post){ %>
       <div class="post-card">
         <p class="date-info"><%= date(post.date, config.date_format) %></p>
         <p>
-          <a href="<%- url_for(post.path) %>">
-            <%= post.title %>
-          </a>
+          <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+          <span class="post-category">
+            <%- list_categories(post.categories, {
+              show_count: false,
+              style: false
+            }) %>
+          </span>
         </p>
       </div>
     <% }) %>
-    <p class="text-small"><a href="/writing" title="All essays">See all essays.</a></p>
+    <p class="text-small"><a href="/writing" title="All essays">See all posts.</a></p>
   </div>  
 
   <div class="content">

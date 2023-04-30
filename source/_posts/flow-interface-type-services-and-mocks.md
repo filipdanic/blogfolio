@@ -3,7 +3,7 @@ title: Flow’s Interface Type, Services, and Mocks
 seo_description: How to use Flow’s Interface Type to create Interfaces for Classes, Services and Mocks.
 promo_photo: /content/images/2018/flow-interface-type.jpg
 date: 2018-09-13
-tags:
+categories: engineering
 
 ---
 

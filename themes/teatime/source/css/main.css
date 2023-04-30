@@ -172,7 +172,22 @@ p.date-info {
 }
 
 .post-card {
-  margin-bottom: 15px;
+  margin-bottom: 6px;
+}
+
+.post-card p {
+  line-height: 1.2;
+}
+
+.post-card .post-category a {
+  margin-left: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #6d28d9;
+}
+
+.post-card .post-category a::before {
+  content: '#';
 }
 
 .content--center {

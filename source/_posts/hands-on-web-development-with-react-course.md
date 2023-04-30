@@ -3,7 +3,8 @@ title: Hands-on Web Development with React (Video Course)
 seo_description: Hands-on web development with React is a video course by Filip Danić. Aimed at newcomers who want to learn React.js
 promo_photo: /content/images/2018/react-web-development-course.png
 date: 2018-09-28
-tags:
+categories: engineering
+
 ---
 
 After nearly 200 hours of work, my first video course is available! _**[Hands-on Web Development with React](https://www.packtpub.com/web-development/hands-web-development-react-video)**_ is available via Packt Publishing and you can actually jump into the course for free [via Mapt.](https://www.packtpub.com/mapt/video/web_development/9781789343915) (Packt’s on-demand course platform.)

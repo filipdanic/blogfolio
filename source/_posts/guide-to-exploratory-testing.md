@@ -3,7 +3,7 @@ title: A Guide to Exploratory Testing
 seo_description: Learn about the benefits of Exploratory Testing and how to use it on your team.
 promo_photo: /content/images/2020/casual-testing.jpg
 date: 2020-08-16
-tags:
+categories: engineering
 
 ---
 
