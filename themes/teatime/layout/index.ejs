@@ -1,16 +1,19 @@
 <div class="container">
   <div class="row front-header">
     <div class="content">
-      <h1><%= config.title %></h1>
+      <h1>
+        <%= config.title %>
+      </h1>
       <p>
-          Hey, 👋 I’m Filip! I’m currently building big-data compliance systems at Amazon FinTech in Amsterdam.
+        Hey, 👋 I’m Filip! I’m currently building big-data compliance systems at Amazon FinTech in Amsterdam.
       </p>
     </div>
   </div>
 
   <div class="content">
     <h2>The Daily Grind</h2>
-    <p>I work at Amazon (FinTech) and I’m based in Amsterdam, Netherlands. Over the years I’ve worked on some awesome projects for some really cool companies.</p>
+    <p>I work at Amazon (FinTech) and I’m based in Amsterdam, Netherlands. Over the years I’ve worked on some awesome
+      projects for some really cool companies.</p>
     <div>
       <a href="https://www.amazon.com/" target="_blank" class="link-tag" rel="noopener noreferrer">
         <img src="css/images/amazon.png" alt="" /> Amazon
@@ -19,83 +22,94 @@
         <img src="css/images/spicefactory.png" alt="" /> SpiceFactory
       </a>
       <a href="http://z9security.com/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/z9security.png" alt=""/> Z9 Security
+        <img src="css/images/z9security.png" alt="" /> Z9 Security
       </a>
       <a href="https://zktecousa.com/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/zkteco.png" alt=""/> ZKTeco
+        <img src="css/images/zkteco.png" alt="" /> ZKTeco
       </a>
       <a href="https://konceptapp.com/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/koncept.png" alt=""/> KonceptApp
+        <img src="css/images/koncept.png" alt="" /> KonceptApp
       </a>
       <a href="https://sava.events/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/savaevents.png" alt=""/> Sava Events
+        <img src="css/images/savaevents.png" alt="" /> Sava Events
       </a>
       <a href="https://ospitek.us/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/ospitek.png" alt=""/> Ospitek
+        <img src="css/images/ospitek.png" alt="" /> Ospitek
       </a>
       <a href="https://cognito.spicefactory.co/" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/cognito.png" alt=""/> Cognito
+        <img src="css/images/cognito.png" alt="" /> Cognito
       </a>
-      <a href="https://www.packtpub.com/books/info/authors/filip-danic" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/packt.png" alt=""/> Packt
+      <a href="https://www.packtpub.com/books/info/authors/filip-danic" target="_blank" class="link-tag"
+        rel="noopener noreferrer">
+        <img src="css/images/packt.png" alt="" /> Packt
       </a>
     </div>
   </div>
 
   <div class="content">
     <h2>Blog posts</h2>
-    <p>I now run a dedicated blog called <a href="https://www.thesoftwarelounge.com/" target="_blank">The Software Lounge</a> where I post a new article every 2 weeks or so. I hope you’ll check it out! Below is an archive of old blog posts and some choice content.</p>
+    <p>I now run a dedicated blog called <a href="https://www.thesoftwarelounge.com/" target="_blank">The Software
+        Lounge</a> where I post a new article every 2 weeks or so. I hope you’ll check it out! Below is an archive of
+      old blog posts and some choice content.</p>
     <% site.posts.sort('date', -1).limit(8).each(function(post){ %>
       <div class="post-card">
-        <p class="date-info"><%= date(post.date, config.date_format) %></p>
+        <p class="date-info">
+          <%= date(post.date, config.date_format) %>
+        </p>
         <p>
-          <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+          <a href="<%- url_for(post.path) %>">
+            <%= post.title %>
+          </a>
           <span class="post-category">
-            <%- list_categories(post.categories, {
-              show_count: false,
-              style: false
-            }) %>
+            <%- list_categories(post.categories, { show_count: false, style: false }) %>
           </span>
         </p>
       </div>
-    <% }) %>
-    <p class="text-small"><a href="/writing" title="All essays">See all posts.</a></p>
-  </div>  
+      <% }) %>
+        <p class="text-small"><a href="/writing" title="All essays">See all posts.</a></p>
+  </div>
 
   <div class="content">
     <h2>Courses and Videos</h2>
-    <p>I’ve published two course via Packt Publishing. Both are designed for newcomers who are just joining the industry or branching off from other IT roles. I also post videos on YouTube and Twitch from time to time.</p>
+    <p>I’ve published two course via Packt Publishing. Both are designed for newcomers who are just joining the industry
+      or branching off from other IT roles. I also post videos on YouTube and Twitch from time to time.</p>
     <div>
-      <a href="https://www.packtpub.com/web-development/hands-web-development-react-video" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/packt.png" alt=""/> Hands-On Web Development with React
+      <a href="https://www.packtpub.com/web-development/hands-web-development-react-video" target="_blank"
+        class="link-tag" rel="noopener noreferrer">
+        <img src="css/images/packt.png" alt="" /> Hands-On Web Development with React
       </a>
       <a href="/2018/hands-on-web-development-with-react-course" class="link-tag">Blog Post</a>
     </div>
     <div>
-      <a href="https://www.packtpub.com/web-development/hands-mern-stack-web-development-video" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/packt.png" alt=""/> Hands-On MERN Stack Web Development
+      <a href="https://www.packtpub.com/web-development/hands-mern-stack-web-development-video" target="_blank"
+        class="link-tag" rel="noopener noreferrer">
+        <img src="css/images/packt.png" alt="" /> Hands-On MERN Stack Web Development
       </a>
       <a href="/2019/hands-on-mern-stack-web-development-course" class="link-tag">Blog Post</a>
     </div>
     <div>
-      <a href="https://www.youtube.com/watch?v=5Vhbo9Mloew&list=PLtzWdT8JUrMYWlSoXvs4E3SrSEn8W68xN" target="_blank" class="link-tag" rel="noopener noreferrer">
-        <img src="css/images/youtube.png" alt=""/> Learn React by Building a Dungeons and Dragons App!
+      <a href="https://www.youtube.com/watch?v=5Vhbo9Mloew&list=PLtzWdT8JUrMYWlSoXvs4E3SrSEn8W68xN" target="_blank"
+        class="link-tag" rel="noopener noreferrer">
+        <img src="css/images/youtube.png" alt="" /> Learn React by Building a Dungeons and Dragons App!
       </a>
     </div>
   </div>
 
   <div class="content">
     <h2>Speaking</h2>
-    <p>I like to speak at conferences and meetups. Sharing knowledge and meetings new people is exciting! Interested in having me speak at your event? <a href="/speaking">Read more about my past experience.</a></p>
+    <p>I like to speak at conferences and meetups. Sharing knowledge and meetings new people is exciting! Interested in
+      having me speak at your event? <a href="/speaking">Read more about my past experience.</a></p>
     <h3>I’ve Spoken At</h3>
     <div>
-      <a href="https://heapcon.io/speakers/filip-danic/its-time-to-reinvent-the-web-without-the-internet/" target="_blank" class="link-tag" rel="noopener noreferrer" title="Heapcon 2019">
+      <a href="https://heapcon.io/speakers/filip-danic/its-time-to-reinvent-the-web-without-the-internet/"
+        target="_blank" class="link-tag" rel="noopener noreferrer" title="Heapcon 2019">
         Heapcon 2019
       </a>
       <a href="https://www.instagram.com/p/ByH8bfjBpmr/" target="_blank" class="link-tag" rel="noopener noreferrer">
         INAT Summit 2019
       </a>
-      <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank" class="link-tag" rel="noopener noreferrer">
+      <a href="https://belgrade.voxxeddays.com/speakers/filip-danic" target="_blank" class="link-tag"
+        rel="noopener noreferrer">
         Voxxed Days Belgrade 2017
       </a>
       <a href="https://www.meetup.com/SuperAdmins/" target="_blank" class="link-tag" rel="noopener noreferrer">
@@ -114,6 +128,15 @@
         Voxxed Days Belgrade 2016
       </a>
     </div>
+  </div>
+
+  <div class="content">
+    <h2>Small Bets</h2>
+    <p>I’ve always been in the search of <em>the right passion project™.</em> I’ve decided to stop investing too much in
+      the "next big thing," and instead focus on starting small.</p>
+    <p>Right now I’m running a new <a href="https://www.thesoftwarelounge.com/" target="_blank">software engineering
+        blog</a> and a <a href="https://www.capacityinspector.com/" target="_blank">free project planning/diagraming
+        tool.</a></p>
   </div>
 </div>
 
